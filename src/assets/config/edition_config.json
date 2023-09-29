@@ -11,12 +11,12 @@
 		{
 			"id": "interpretative",
 			"label": "interpretative",
-			"enable": true
+			"enable": false
 		},
 		{
 			"id": "critical",
 			"label": "critical",
-			"enable": true
+			"enable": false
 		}
 	],
 	"namedEntitiesLists": {

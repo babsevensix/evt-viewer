@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epistola a Cangrande</title>
+                <author>
+                    <name>Dante Alighieri</name>
+                </author>
+                <respStmt>
+                    <resp id="MG">Edizione elettronica curata da:</resp>
+                    <name>Paolo Rembadi.</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>CRILet-Centro Ricerche Informatica e Letteratura</publisher>
+                <authority>Paolo Rembadi</authority>
+                <availability status="restricted">
+                    <p>Copyright CRILet-Centro Ricerche Informatica e Letteratura</p>
+                </availability>
+                <date>2002</date>
+            </publicationStmt>
+            <sourceDesc default="YES">
+                <msDescription status="compo" type="codice">
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <region>Lombardia</region>
+                        <settlement>Milano</settlement>
+                        <institution>Biblioteca Ambrosiana</institution>
+                        <repository>???</repository>
+                        <collection>Codex Ambrosianus</collection>
+                        <idno>145 Inf.</idno>
+                        <altName>Ambrosiano</altName>
+                    </msIdentifier>
+                    <msHeading>
+                        <author>Dante Alighieri</author>
+                        <title>Epistola a Cangrande</title>
+                        <respStmt>
+                            <resp>[sconosciuto]</resp>
+                        </respStmt>
+                        <origPlace>[sconosciuto]</origPlace>
+                        <origDate notBefore="1450" notAfter="1499" evidence="internal">XV sec. ex</origDate>
+                        <textLang>Latino</textLang>
+                        <note>Il manoscritto è miscellaneo e contiene opere in prosa di autori laici ed
+                            ecclesiastici. Molte di queste opere sono orazioni di occasione mentre solo alcune
+                            sono epistole. Alcune opere sono datate e ci consentono così di stabilire un termine <hi
+                                    rend="italic">post quem
+                            </hi> per la composizione del manoscritto.
+                        </note>
+                    </msHeading>
+                    <msContents>
+                        <msItem defective="no">
+                            <locus from="105v" to="106v">ff. 105v-106v</locus>
+                            <author attested="yes" accepted="n">Dante Alighieri</author>
+                            <title>Epistola a Cangrande</title>
+                            <bibl>
+                                <author>Brugnoli Giorgio, ed.</author>
+                                <title>“Epistola XIII [a Cangrande].”</title>
+                                In
+                                <title>La letteratura italiana: storia e testi.
+                                    [Opere minori di Dante Alighieri. vol. 2.]
+                                </title>
+                                <publisher>Milano-Napoli:
+                                    Ricciardi</publisher>, <date value="1979">1979</date>: vol. 5, parte 2: 512-21;
+                                558-643.
+                            </bibl>
+                            <incipit type="intestazione">Il testo dell’Epistola è preceduto dall’<hi rend="italic">
+                                inscriptio
+                            </hi> "DANTIS . ALIGERII . POETE . LAUREATISSIMI . FLORENTINI . EPISTOLA .
+                                AD <abbr expan="D(OMINO)">D</abbr> CANEM . GRANDEM . DE LA SCALA <abbr
+                                        expan="Q(VONDAM)">Q
+                                </abbr> VERONE . PRINCIPEM . INCIPIT . <hi
+                                        rend="rend">[segno ondulato fino alla fine della riga]</hi>"
+                            </incipit>
+                            <summary>Il manoscritto contiene soltanto una parte dell'Epistola, per come essa
+                                appare nelle edizioni moderne,
+                                e cioé la cosidetta parte nuncupatoria, equivalente ai cap. 1-4. Nonostante questo
+                                non ritengo che il testo
+                                sia da considerarsi mutilo in quanto la tradizione dell'Epistola presenta, a mio
+                                avviso, due distinte redazioni,
+                                ognuna delle quali da considerarsi completa e coerente.
+                            </summary>
+                        </msItem>
+                        <msItem defective="no">
+                            <locus from="106v" to="106v">f. 106v</locus>
+                            <author accepted="n" attested="no">[sconosciuto]</author>
+                            <title>Epigrama ad sepulchrum Dantis</title>
+                            <note>
+                                <p>Questo manoscritto riporta alla fine dell’Epistola un epigramma che è lo stesso
+                                    riportato da M. Proprio sulla base del testo dell’epigramma di A, Nicola
+                                    Zingarelli pubblicò l’epigramma nel 1931 ***(Zingarelli 1931, 1355)***. Ne riporto
+                                    il testo nella versione data da Zingarelli sebbene quest’ultimo abbia adottato
+                                    l’uso della <hi rend="italic">punctatio</hi> e l’uso delle maiuscole dell’uso
+                                    moderno:
+                                </p>
+                                <l>Hic iacet eloquii moles facundia latini</l>
+                                <l>Hic situs orbis honos, hic tuscae gloria gentis,</l>
+                                <l>Hic decus et uatum princeps, hic corpus humatum,</l>
+                                <l>Dantis Aligerii; patria qui pulsus ad urbe</l>
+                                <l>Inuidia, magnis decorauit laudibus orbem;</l>
+                                <l>Cui nec stellarum motus, nec fulgura coeli,</l>
+                                <l>Nec latuere deum mentes, nec uana futuri</l>
+                                <l>Vox fuit, aut dubiis praedixit tempora signis.</l>
+                                <l>Hic, quem nulla bonis uidit Fortuna superbum</l>
+                                <l>Depressumque malis, inuictus ille sub omni</l>
+                                <l>Pondere, nec cupido rerum fragrauit amore,</l>
+                                <l>Sed uirtutis amor rigidique cacumen honesti;</l>
+                                <l>Raraque purpureo placuit facundiae linguae:</l>
+                                <l>Et ne forte suum putet extinxisse decorem</l>
+                                <l>Mors inuisa reis, claro uiget ille relatu,</l>
+                                <l>Viuit adhuc nomenque manet uenerabile sacrum</l>
+                                <l>Famaque perpetuo numquam peritura sub aevo.</l>
+                                <p>L’epigramma, nella versione di A è preceduto da questa inscriptio anch’essa, come
+                                    l’altra
+                                    inscriptio di A, in capitale maiuscola: EPIGRAMMA . AD . SEPVLCHRVM . DANTIS . R .
+                                    AVENE .
+                                    (con la R con la gamba allungata ed a capo la parola AVENE circondata da due
+                                    fregi). Il significato
+                                    di questa inscriptio può forse essere inteso se si uniscono la R e AVENE così da
+                                    formare la parola RAVENE
+                                    cioè Ravenna che è proprio la città che accoglie il sepolcro di Dante Alighieri.
+                                    Si potrebbe quindi
+                                    ipotizzare che il copista di A abbia trovato sul suo antigrafo l’inscriptio
+                                    scritta in modo che la parola
+                                    Ravene fosse divisa su due righe diverse (R/avene) e che la abbia riprodotta come
+                                    la trovava senza intendere
+                                    che si trattasse di una parola sola ma piuttosto intendendo avene come il nome del
+                                    corrispondente strumento
+                                    a fiato. Non sorprenda una andata a capo di questo tipo poichè spesso nei
+                                    manoscritti antichi la sillabazione
+                                    non vale come regola vincolante in questo senso ma piuttosto alcuni copisti (e tra
+                                    questi il copista di A)
+                                    sembrano andare a capo semplicemente quando raggiungono un margine prefissato.
+                                </p>
+                            </note>
+                            <note>
+                                <p>Anche l’epigramma riportato da questo manoscritto è stato tagliato nella
+                                    riproduzione fotografica di Schneider già citata.
+                                </p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <form>
+                            <p>Codice</p>
+                        </form>
+                        <support>
+                            <p>
+                                <material>Carta</material>
+                            </p>
+                        </support>
+                        <extent>366 fogli, ma la numerazione salta da 199 a 220.
+                            <dimensions type="leaves"
+                                        scope="all">
+                                <height units="mm">302</height>
+                                <width units="mm">211</width>
+                            </dimensions>
+                        </extent>
+                        <layout columns="1" writtenLines="25">
+                            <p>Il testo della parte nuncupatoria dell'Epistola, disposto su una colonna singola,
+                                si estende
+                                su due pagine e mezzo con un numero regolare di 25 righe per pagina. La terza
+                                pagina, 106v, riporta solo 17 righe del testo dell'Epistola.
+                            </p>
+                        </layout>
+                        <msWriting hands="2">
+                            <handDesc script="umanistica" medium="inchiostro" scope="sole" scribe="[copista]">
+                                <p>Il testo dell'Epistola è scritto in una umanistica ampia e leggermente inclinata
+                                    a destra.
+                                </p>
+                                <p>L'<hi rend="italic">inscriptio</hi> è in capitale maiuscola quadrata e può essere
+                                    un elemento importante per la datazione del manoscritto; difatti la capitale
+                                    maiuscola è usata nel secondo umanesimo in conseguenza degli scavi che ritrovarono
+                                    e fecero conoscere le epigrafi latine attorno alla metà del XV secolo.
+                                </p>
+                            </handDesc>
+                            <handDesc scope="minor" medium="inchiostro" script="corsiva moderna"
+                                      scribe="[revisore]">
+                                <p>Una seconda mano, probabilmente di un revisore, alla riga 8 del f. 105v,
+                                    ha corretto un errato 'sus' in 'suus' aggiungendo una 'u' in interlinea.
+                                </p>
+                            </handDesc>
+                        </msWriting>
+                        <decoration>
+                            <decoNote id="dec1" technique="spazio bianco" type="struttura">
+                                <p>Subito sotto l’<hi rend="italic">inscriptio</hi> troviamo uno spazio vuoto, alto
+                                    tre righe e largo circa 10 lettere, lasciato dal copista per il miniatore che
+                                    avrebbe dovuto disegnare la lettera M, indicata dalla lettera guida al margine
+                                    dello stesso spazio bianco.
+                                </p>
+                            </decoNote>
+                            <decoNote technique="inchiostro" type="struttura">
+                                <p>Due sole lettere escono dallo specchio della scrittura per altro rispettato
+                                    in modo molto rigido: una non desta problemi in quanto iniziale di un nuovo
+                                    paragrafo
+                                    'Nos autem'; l’altra è di più difficile spiegazione essendo l’iniziale maiuscola
+                                    della
+                                    parola 'Verona' tra l’altro molto diversa dalle altre u maiuscole di questo
+                                    testimone.
+                                </p>
+                            </decoNote>
+                        </decoration>
+                        <foliation>
+                            <p>Le pagine in questione del manoscritto non presentano numerazione esplicita.</p>
+                        </foliation>
+                        <condition>
+                            <p>Il codice si presenta in buone condizioni di conservazione e di leggibilità.</p>
+                        </condition>
+                    </physDesc>
+                    <additional>
+                        <surrogates>
+                            <p>Una riproduzione fotografica, in bianco e nero, del testimone è disponibile in:
+                                <bibl>
+                                    <author>Schneider, Friedrich.</author>
+                                    <title>Die Handschriften des Briefes Dantes
+                                        an Can Grande della Scala.
+                                    </title>
+                                    <publisher>Zwickau i. Sa.: Ullmann</publisher>, <date>
+                                    1933
+                                </date> pp. 1-3.
+                                </bibl>
+                            </p>
+                        </surrogates>
+                    </additional>
+                </msDescription>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="text">
+        <front xml:id="front">
+            <titlePage>
+                <docAuthor>Dante Alighieri</docAuthor>
+                <docTitle>
+                    <titlePart type="main">Epistola a Cangrande</titlePart>
+                </docTitle>
+            </titlePage>
+        </front>
+        <body>
+            <witList>
+                <witness sigil="A">Milano, Biblioteca Ambrosiana, C. 145 inf.; 105v - 106v</witness>
+                <witness sigil="M">München, Bayer. Staatsbibl., clm 78; ff. 127r - 127v</witness>
+                <witness sigil="Bg">Bergamo, Biblioteca Civica, Delta 5, 25; 49r - 49v</witness>
+                <witness sigil="V">Verona, Biblioteca Capitolare, 314; ff. 2r - 6r</witness>
+                <witness sigil="Me">Firenze, Archivio di Stato, Carte Strozziane, serie prima, 136; 145r -
+                    151v
+                </witness>
+                <witness sigil="Ma1">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VI 164; ff. 1 –
+                    9
+                </witness>
+                <witness sigil="Ma2">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VI 164; ff. 10
+                    - 15
+                </witness>
+                <witness sigil="Ma3">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VII, 1028;
+                    fasc. II, ff. 87r - 101v
+                </witness>
+                <witness sigil="Ri">Firenze, Biblioteca Nazionale Centrale, Fondo Palatino, Filza Rinuccini,
+                    19; ff. 1r - 6v
+                </witness>
+                <witness sigil="Bar">editio princeps di G. Baruffaldi, La Galleria di Minerva, III (1700),
+                    pp. 219 - 228
+                </witness>
+            </witList>
+            <div>
+                <head>
+                    <name reg="Dante Alighieri">DANTIS ALIGERII</name>
+                    POETE LAUREATI
+                    <lb
+                            n="1"/>
+                    SSIMI FLORENTINI EPISTOLA AD
+                    <abbr expan="D(OMINO)">
+                        <lb
+                                n="2"/>
+                        D
+                    </abbr>
+                    <name reg="Can Grande della Scala">CANEM GRANDEM DE
+                        LA SCALA
+                    </name>
+                    <lb n="3"/>
+                    <abbr expan="Q(VONDAM)">Q</abbr>
+                    VERONE
+                    PRINCIPEM INCIPIT
+                    <hi rend="rend">[segno ondulato fino alla fine della riga]</hi>
+                    <lb
+                            n="4"/>
+                </head>
+                <p>
+					<pb n="104v" xml:id="C145inf-105verso"/>
+                    <figure id="fig1" file="fig1">
+                        <figDesc>[m]</figDesc>
+                    </figure>
+                    <lb n="4"/>
+                    Agnifico at
+                    <abbr expan="que">q</abbr>
+                    uictoriosissimo  <abbr expan="d(omino)">d</abbr>
+                    <abbr expan="d(omino)">d</abbr>
+                    cani gra
+                    <abbr expan="n"></abbr>
+                    <lb n="5"/>
+                    di de lascala sacratissimi cesarei
+                    Principatus
+                    <lb n="6"/>
+                    in urbe uerona <abbr expan="et"></abbr> ciuitate
+                    uincenti
+                    <abbr expan="Vic(ario)">Vic</abbr>
+                    <lb n="7"/>
+                    generali deuotissimus
+                    su<add place="interlinea">u</add>s
+                    <name reg="Dante Alighieri">Dantes aligerius</name>
+                    Florenti
+                    <lb n="8"/>
+                    niis natione no<abbr expan="n"></abbr> morib<abbr expan="us">
+                </abbr> uitam orat <abbr expan="per">p</abbr> tempora diutur
+                    <lb n="9"/>
+                    na <sic
+                        corr="Felicem">Flicem
+                </sic>
+                    <abbr expan="et"></abbr> gloriosi nominis
+                    perpetuum increme<abbr expan="n"></abbr>tu
+                    <lb n="10"/>
+                    inclyt <abbr
+                        expan="u(est)">u</abbr>r magnificenti laus Quam fama uigil uolita
+                    <abbr
+                            expan="n"></abbr>
+                    <lb n="11"/>
+                    do disseminat sic distrahit ut hos
+                    inspem suæ prosperi
+                    <lb n="12"/>
+                    tatis attollat hos exterminii deiccit in <sic
+                        corr="terrorem">terorem
+                </sic> huius
+                    <abbr expan="quidem">qd***</abbr>
+                    <lb
+                            n="13"/>
+                    prconiu<abbr expan="m"></abbr> facto moderno
+                    <abbr expan="rum"></abbr>
+                    exuberans ta
+                    <abbr expan="m"></abbr>
+                    <abbr expan="quam">q</abbr>
+                    ueri
+                    existentia
+                    <lb n="14"/>
+                    latius arbitrabar ali<abbr expan="q(ua)n(do)">qn</abbr> su<abbr
+                        expan="per">p</abbr>fluum Ve<abbr expan="rum"></abbr> ne diuturna
+                    <lb
+                            n="15"/>
+                    me nimis incertitudine suspenderet uelut
+                    <del type="espunto">augusti</del>
+                    reg
+                    <lb n="16"/>
+                    iam austri yerusalem petiit uelut Pallas petiit
+                    <corr sic="e">h</corr>
+                    elicona
+                    <lb n="17"/>
+                    Veronam petii fidis oculis
+                    <sic corr="discursurus">discrisurus</sic>
+                    audita ibi<abbr expan="que">q</abbr> magn
+                    <lb n="18"/>
+                    alia <abbr expan="u(est)">
+                    u</abbr>ra uidi uidi <abbr expan="b(e)n(e)">bn</abbr>ficia simi<abbr
+                        expan="l(ite)">l</abbr>r  <abbr expan="et"></abbr> tetigi <abbr
+                        expan="et"></abbr>
+                    <abbr expan="quemadmodum">queadmo
+                        <lb n="19"/>
+                        dum
+                    </abbr>
+                    Prius <del type="espunto">tetigi</del>
+                    <abbr expan="d(i)c(t)o">dco</abbr>
+                    <abbr
+                            expan="rum"></abbr>
+                    ex parte suspicabar excessum sic
+                    <lb n="20"/>
+                    posterius <abbr
+                        expan="ip(s)">ip</abbr>a facta excessiua cognoui Quo factum ut ex a
+                    <lb n="21"/>
+                    uditu solo cum quadam animi subiectione <sic corr="beniuolus">tiuolus</sic> prius
+                    <lb
+                            n="22"/>
+                    extiterim  <abbr expan="sed">s</abbr> ex usu postmodum deuotissimus <abbr
+                        expan="et"></abbr> amicus
+                    <lb n="23"/>
+                    nec reor amici nomen assumens ut no<abbr
+                        expan="n"></abbr> nulli forsita<abbr expan="n"></abbr> obie
+                    <lb n="24"/>
+                    ctarent reatum presumptionis mereri cum no<abbr expan="n"></abbr> minus dis
+                    <lb n="25"/>
+                    <pb n="105v" xml:id="C145inf-106recto"/>
+
+                    pares <abbr expan="con"></abbr>nectantur
+                    <abbr expan="quam">q</abbr>
+                    Paris amicitie sacramento Nam
+                    <lb n="1"/>
+                    si delectabiles
+                    <abbr expan="et"></abbr>
+                    utiles amicitias inspice<abbr expan="re"></abbr> libeat illas per
+                    <lb n="2"/>
+                    sæpius
+                    inspicienti patebit inferiores <abbr expan="con"></abbr>iungat personas
+                    <lb n="3"/>
+                    <abbr
+                            expan="et"></abbr>
+                    si ad ueram ac <abbr expan="per">p</abbr> se amicitiam
+                    torqueatur intuitus
+                    <lb n="4"/>
+                    no<abbr expan="n"></abbr> ne summo<abbr expan="rum">
+                </abbr> illustriu
+                    <abbr expan="m"></abbr>
+                    <abbr expan="que">q</abbr>
+                    Principum
+                    plerun<abbr expan="que">q</abbr> uiros
+                    <lb n="5"/>
+                    fortuna obscuros honestate
+                    preclaros amicos fuisse con
+                    <lb n="6"/>
+                    stabit Quid ni cum <abbr expan="etiam">
+                </abbr> dei <abbr expan="et"></abbr> hominis amicitia neq
+                    <lb n="7"/>
+                    ua<abbr expan="quam">q</abbr> impediatur excessu Quid si cui<abbr
+                        expan="quam">q
+                </abbr> asserit nu<abbr expan="n"></abbr>c ui<abbr
+                        expan="d(e)">d</abbr>ret
+                    <lb n="8"/>
+                    indignum spiritum sanctum audiat amiciti
+                    su partici
+                    <lb n="9"/>
+                    pes quosdam honores profitentem Nam insipientia
+                    <abbr
+                            expan="d(e)">d
+                    </abbr>
+                    <lb n="10"/>
+                    sapientia legitur <abbr expan="q(uonia)m">
+                    qm
+                </abbr> infinitus thesaurus est
+                    <hi rend="italic">
+                        <abbr expan="ho(min)ib(us)">hoib</abbr>
+                    </hi>
+                    quo qui
+                    <lb n="11"/>
+                    usi
+                    sunt amicitie dei  <abbr expan="sed">s</abbr>
+                    <abbr expan="h(abe)t">ht</abbr>
+                    imperitia uulgi sine discretio<abbr expan="n"></abbr>e
+                    <lb n="12"/>
+                    iuditium Et
+                    quemadmodum solem pedalis magnitud
+                    <lb n="13"/>
+                    inis arbitratur sic <abbr expan="et">
+                </abbr>
+                    <abbr expan="contra"></abbr> mores uana credulitate <abbr expan="d(e)">
+                    d</abbr>cipitur
+                    <lb n="14"/>
+                    Nos <abbr expan="aut(em)">aut</abbr> quibus optimum
+                    quidem est nobis nosce<abbr expan="re"></abbr> datum
+                    <lb n="15"/>
+                    gregum uestigia
+                    sectari no<abbr expan="n"></abbr> decet Quin im<abbr expan="m"></abbr>o suis
+                    <sic
+                            corr="erroribus">eroribus
+                    </sic>
+                    <lb n="16"/>
+                    obuiare tenemur nam intellectu <abbr
+                        expan="atque">atq
+                </abbr>
+                    <abbr expan="r(ati)one">rone</abbr> degentes di
+                    <lb
+                            n="17"/>
+                    uina quadam libertate dotati nullis consuetudinibus astr
+                    <lb n="18"/>
+                    ingitur
+                    Nec mi<abbr expan="rum"></abbr> cum no<abbr expan="n"></abbr>
+                    <abbr
+                            expan="ip(s)">ip</abbr>i legibus <abbr expan="sed">s</abbr>
+                    <abbr
+                            expan="p(ro)p(r)is">ppis
+                    </abbr> leges potius
+                    <lb n="19"/>
+                    dirigantur liquet
+                    igitur <abbr expan="quod">q</abbr> superius dixi me <abbr expan="s(cilicet)">
+                    s
+                </abbr> esse deuo
+                    <lb n="20"/>
+                    tissimum <abbr expan="et"></abbr> amicum
+                    nullatenus esse presumptu<abbr expan="m"></abbr>  prefe
+                    <lb n="21"/>
+                    rens
+                    igitur amicitiam <abbr expan="u(est)">u</abbr>ram
+                    <abbr expan="q(uas)i">qi</abbr>
+                    thesaurum carissimum pro
+                    <lb n="22"/>
+                    uidentia diligenti
+                    <abbr expan="et"></abbr>
+                    acurata sollicitudine illam servare
+                    <lb n="23"/>
+                    desiderio Ita
+                    <abbr expan="que">q</abbr>
+                    cum in dogmati<abbr expan="bus">b</abbr> moralis philosophi ne
+                    <lb n="24"/>
+                    gotii amicitiam adquaui <abbr expan="et"></abbr> saluari docea<abbr
+                        expan="tur">t
+                </abbr> ad retribu
+                    <lb n="25"/>
+
+                    <pb n="106r" xml:id="C145inf-106verso"/>
+                    endum pro collatis <abbr
+                        expan="b(e)n(e)">bn</abbr>ficiis plus<abbr expan="quam">q</abbr> semel <sic
+                        corr="analogiam">anologiam
+                </sic> sequi
+                    <lb n="1"/>
+                    mihi
+                    <sic corr="notuum">
+                        <abbr expan="notuuim">notuui</abbr>
+                    </sic>
+                    est <abbr expan="et"></abbr>
+                    <abbr
+                            expan="p(ro)p(ter)">pp
+                    </abbr> hoc munuscula sæpe multum as
+                    <lb n="2"/>
+                    pexi <abbr
+                        expan="et"></abbr> abinuice<abbr expan="m"></abbr> segregaui nec non
+                    segregata <abbr expan="pro">p</abbr>cessui
+                    <lb n="3"/>
+                    dignius gratius <abbr
+                        expan="que">q
+                </abbr> nobis inquirens ne<abbr expan="que">q</abbr> preheminentiae
+                    <lb
+                            n="4"/>
+                    <abbr expan="u(est)">u</abbr>r <abbr expan="con"></abbr>gruum
+                    magis comperi <abbr expan="quam">q</abbr> comedie sublime
+                    <abbr expan="m"></abbr>
+                    canti
+                    <lb n="5"/>
+                    cam Qu decoratur titulo paradisi
+                    <abbr expan="et"></abbr>
+                    illam sub <abbr expan="p(rese)">p</abbr>nti ep
+                    <lb n="6"/>
+                    istola ta
+                    <abbr expan="m">
+                    </abbr>
+                    <abbr expan="quam">q</abbr>
+                    sub epigramate proprio dedicatam uobis as
+                    <lb
+                            n="7"/>
+                    cribo uobis offero uobis deni
+                    <abbr expan="que">q</abbr>
+                    recomendo Illud <abbr expan="q(uo)">q</abbr> pr
+                    <lb n="8"/>
+                    eterire silentio
+                    non sinit affectus quod in hac <abbr expan="dono">don</abbr> plus do
+                    <lb n="9"/>
+                    no <abbr
+                        expan="quam">q
+                </abbr>
+                    <abbr expan="d(omi)no">dno</abbr>
+                    <abbr expan="et">
+                    </abbr> honoris <abbr expan="et"></abbr> Fam conferri uideri <abbr
+                        expan="pot(est)">pot
+                </abbr>  Quid
+                    <lb n="10"/>
+                    mi
+                    <abbr expan="rum"></abbr>
+                    cum eius titulum iam presagiam de gloria <abbr expan="u(est)">u</abbr>ri no
+                    <lb n="11"/>
+                    minis ampliandum satis hactenus uidebar expresisse
+                    <abbr expan="quod">q</abbr>
+                    <lb
+                            n="12"/>
+                    de proposito fui <abbr expan="sed">s</abbr> gelus <abbr expan="gra(ti)ae">
+                    gra
+                </abbr>
+                    <abbr expan="u(est)">u</abbr>r quam sitio nostram
+                    <lb
+                            n="13"/>
+                    paruipendens a primordio metam prfixam urge
+                    <abbr expan="re"></abbr>
+                    ul<abbr expan="ter">t</abbr>ius
+                    <lb n="14"/>
+                    ita<abbr expan="que">q</abbr> formula
+                    consumata epistol ad introductionem obli
+                    <lb n="15"/>
+                    ti operis aliquid sub lectoris
+                    officio compendiose aggredi
+                    <lb n="16"/>
+                    ar
+                    <lb n="17"/>
+                    EPIGRAMA AD SEPVLCHRV<abbr expan="M"></abbr>  DANTIS R
+                    <lb
+                            n="18"/>
+                    <hi rend="centered">AVENE</hi>
+                    <lb n="19"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

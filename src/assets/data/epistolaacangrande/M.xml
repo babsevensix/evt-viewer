@@ -1,0 +1,762 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "D:\Documenti\Tesi di diploma\Manoscritti codificati\DTD\myTEIDTD.dtd">
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epistola a Cangrande</title>
+                <author>
+                    <name>Dante Alighieri</name>
+                </author>
+                <respStmt>
+                    <resp id="MG">Edizione elettronica curata da:</resp>
+                    <name>Paolo Rembadi.</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>CRILet – Centro Ricerche Informatica e Letteratura</publisher>
+                <authority>Paolo Rembadi</authority>
+                <availability status="restricted">
+                    <p>Copyright CRILet – Centro Ricerche Informatica e Letteratura</p>
+                </availability>
+                <date>2002</date>
+            </publicationStmt>
+            <sourceDesc default="YES">
+                <msDescription status="compo" type="codice">
+                    <msIdentifier>
+                        <country>Germania</country>
+                        <region>Baviera</region>
+                        <settlement>München</settlement>
+                        <institution>Bayerische Staatsbibliotek</institution>
+                        <repository>???</repository>
+                        <collection>Codex Latinus Monacensis</collection>
+                        <idno>78</idno>
+                        <altName>Monacense</altName>
+                    </msIdentifier>
+                    <msHeading>
+                        <author attested="yes" accepted="n">
+                            <name>Dante Alighieri</name>
+                        </author>
+                        <title>Epistola a Cangrande</title>
+                        <respStmt>
+                            <resp>Copiato da:
+                                <name>Iohannes Bernardus de Vallibus</name>
+                            </resp>
+                        </respStmt>
+                        <origPlace>[sconosciuto]</origPlace>
+                        <origDate notBefore="1425" notAfter="1475" evidence="internal">XV sec. m</origDate>
+                        <textLang>Latino</textLang>
+                        <note>
+                            Il manoscritto è composto di diversi «Opuscula uariorum imprimis Italorum poetica
+                            et oratoria uaria» ***(Halm, 17)*** raccolti e verosimilmente anche vergati da
+                            Iohannes Bernardus de Vallibus.
+                        </note>
+                    </msHeading>
+                    <msContents>
+                        <msItem defective="no">
+                            <locus from="127r" to="127v">ff. 127r-127v</locus>
+                            <author attested="yes" accepted="n">Dante Alighieri</author>
+                            <title>Epistola a Cangrande</title>
+                            <bibl>
+                                <author>Brugnoli Giorgio, ed.</author>
+                                <title>“Epistola XIII [a Cangrande].”</title>
+                                In
+                                <title>La letteratura italiana: storia e testi.
+                                    [Opere minori di Dante Alighieri. vol. 2.]
+                                </title>
+                                <publisher>Milano-Napoli: Ricciardi</publisher>, <date value="1979">1979</date>:
+                                vol. 5, parte 2: 512-21; 558-643.
+                            </bibl>
+                            <incipit type="intestazione">Il testo dell’Epistola è preceduto dall’
+                                <hi rend="italic">inscriptio</hi>
+                                <hi rend="italic">[Paragraphus]</hi>
+                                <abbr expan="Ep(isto)la">Ep&bar;la</abbr>
+                                Dantis ad
+                                <abbr expan="mag(nificum)">mag&csup;&usup;&nas;</abbr>
+                                <abbr expan="d(omino) d(omino)">&dot;d&dot;d&dot;</abbr>
+                                Canigrandi
+                                <abbr expan="d(e)">d&bar;</abbr>
+                                la schala
+                                <abbr expan="d(omino)">&dot;d&dot;</abbr>
+                                <name reg="Verona">ueron&eced;</name>
+                                et
+                                <name reg="Vicenza">Vince<abbr expan="n">&nas;</abbr>ti&eced;
+                                </name>
+                            </incipit>
+                            <colophon>Al termine del testo dell'Epistola si legge
+                                <hi rend="italic">
+                                    <q>finis
+                                        <abbr expan="Io(hannes)">Io&dot;</abbr>
+                                        <abbr expan="b(ernardus)">b&er;&dot;</abbr>
+                                    </q>
+                                </hi>
+                                ,
+                                sottoscrizione che rivela il nome del probabile copista del testo, Iohannes Bernardus de
+                                Vallibus
+                            </colophon>
+                            <summary>Il manoscritto contiene soltanto una parte dell'Epistola, per come essa appare
+                                nelle edizioni moderne,
+                                e cioé la cosidetta parte nuncupatoria, equivalente ai cap. 1-4. Nonostante questo non
+                                ritengo che il testo
+                                sia da considerarsi mutilo in quanto la tradizione dell'Epistola presenta, a mio avviso,
+                                due distinte redazioni,
+                                ognuna delle quali da considerarsi completa e coerente.
+                            </summary>
+                        </msItem>
+                        <msItem defective="no">
+                            <locus from="127v" to="127v">f. 127v</locus>
+                            <author accepted="n" attested="no">[sconosciuto]</author>
+                            <title>Epigrama ad sepulcrum Dantis</title>
+                            <note>Dopo il testo dell’Epistola, il manoscritto, sulla stessa pagina 127v, riporta
+                                l’Epigrama ad sepulcrum dantis
+                                che è stato tagliato nella riproduzione fotografica di Schneider (Schneider 1933).
+                                L'epigramma non è quello riportato
+                                dal
+                                <bibl>
+                                    <author>Boccaccio</author>
+                                    nella già citata <title>Vita di Dante</title> al
+                                    <locus>capitolo xvii</locus>
+                                </bibl>
+                                ma piuttosto un epigramma più tardo che fu attribuito da alcuni al Petrarca. Nicola
+                                Zingarelli (Zingarelli 1931), che ha
+                                pubblicato questo epigramma, sembra favorevole a questa attribuzione e anzi specifica
+                                che l’epigramma potrebbe essere
+                                stato scritto da Petrarca giovane quando era a Bologna al fine di celebrare la figura di
+                                Dante.
+                                Lo stesso epigramma è presente anche nel testimone A.
+                            </note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <form>
+                            <p>Codice</p>
+                        </form>
+                        <support>
+                            <p>
+                                <material>Carta</material>
+                            </p>
+                        </support>
+                        <extent>262 fogli
+                            <dimensions type="leaves" scope="all">
+                                <height units="mm">???</height>
+                                <width units="mm">???</width>
+                            </dimensions>
+                        </extent>
+                        <layout columns="1" writtenLines="29-30">
+                            <p>Il testo della parte nuncupatoria dell'Epistola, disposto su una colonna singola, si
+                                estende
+                                su una pagina e mezzo e quindi non è possibile fare un calcolo sistematco del numero di
+                                righe
+                                per pagina all'interno del manoscritto. Tale numero dovrebbe però essere circa di 30
+                                righe
+                                per pagina. La seconda pagina, 127v, riporta solo 12 righe.
+                            </p>
+                        </layout>
+                        <msWriting hands="1">
+                            <p>Il testo dell'Epistola è scritto in una gotica corsiva minuta, compatta e ricca di
+                                abbeviazioni: difatti più della
+                                metà delle parole che compongono il testo sono abbreviate. Il testo sembra essere stato
+                                scritto
+                                tutto dalla stessa mano, quella di Iohannes Bernardus de Vallibus.
+                            </p>
+                        </msWriting>
+                        <decoration>
+                            <decoNote id="dec1" technique="rubricata" type="struttura">
+                                <p>Prima dell'<hi rend="italic">inscriptio</hi> si trova un tipico segno di paragrafo
+                                    composto da una sorta
+                                    di parentesi aperta ed una linea verticale ad essa aderente, sormontate da una linea
+                                    orizzontale sottile.
+                                </p>
+                            </decoNote>
+                            <decoNote id="dec2" technique="rubricata" type="struttura">
+                                <p>La 'M' iniziale del testo dell'Epistola è una lettera miniata capitale alta tre righe
+                                    e larga circa 6 lettere.
+                                </p>
+                            </decoNote>
+                            <decoNote id="dec3" technique="disegno a penna" type="illustrazione">
+                                <p>A partire dalla riga 16, e fino alla riga 33, sul margine destro della pagina compare
+                                    un'immagine raffigurante un profilo che probabilmente vuole rappresentare quello di
+                                    Dante sul modello descritto da
+                                    <bibl>
+                                        <author>Boccaccio</author>
+                                        nella <title>Vita di Dante</title> al
+                                        <locus>capitolo xx</locus>
+                                    </bibl>
+                                    :
+                                    <q>Fu adunque questo nostro poeta di mediocre statura. [...] Il suo volto fu lungo,
+                                        e il naso aquilino, e gli occhi anzi grossi che piccioli, le mascelle grandi, e
+                                        dal labbro di sotto era quel di sopra avanzato; [...] e sempre nella faccia
+                                        malinconico e pensoso.
+                                    </q>
+                                    Il profilo sembra essere appeso ad una sorta di corda all’inizio della quale si
+                                    trova l’inscriptio
+                                    <hi rend="italic">[Segno di rimando]</hi>
+                                    <hi rend="sottolineato">Disputatio utru
+                                        <abbr expan="m">&nas;</abbr>
+                                        <unclear cert="100%">ami</unclear>
+                                        <lb n="dx1"/>citia sit
+                                        <abbr expan="i(n)t(er)">i&nas;t&er;</abbr>
+                                        ine<abbr expan="qua">q&asup;</abbr>les
+                                    </hi>
+                                    aggiunta sul margine, in corrispondenza del punto del testo in cui l’autore ragiona
+                                    sulla possibilità che esista o meno amicizia tra due persone di rango diverso (§§ 3
+                                    - 12).
+                                    Al di sotto del suddetto profilo sembra esserci una linea tagliata obliquamente da
+                                    lineette alternate da destra e da sinistra che riporta di lato una n compresa tra
+                                    due linee ondulate, probabilmente il segno per la parola nota.
+                                </p>
+                            </decoNote>
+                        </decoration>
+                        <foliation>
+                            <p>Una mano, probabilmente del XV sec., ha aggiunto il numero 127, seguito da un punto,
+                                sul margine destro in alto della pagina 127r, subito sotto l'
+                                <hi rend="italic">inscriptio</hi>
+                                e prima dell'inizio del testo.
+                            </p>
+                        </foliation>
+                        <additions>
+                            <p>I margini dei fogli che contengono la parte nuncupatoria dell'Epistola presentano una
+                                sola ma
+                                interessante aggiunta marginale. Sul margine destro del f. 127r, all'altezza della riga
+                                16, si trova una glossa esplicativa:
+                                <hi rend="italic">[Segno di rimando]</hi>
+                                <hi rend="sottolineato">Disputatio utru
+                                    <abbr expan="m">&nas;</abbr>
+                                    <unclear cert="100%">ami</unclear>
+                                    <lb n="dx1"/>citia sit
+                                    <abbr expan="i(n)t(er)">i&nas;t&er;</abbr>
+                                    ine<abbr expan="qua">q&asup;</abbr>les
+                                </hi>
+                                .
+                                La glossa si trova in corrispondenza del punto del testo in cui l’autore ragiona sulla
+                                possibilità che esista o meno amicizia
+                                tra due persone di rango diverso (§§ 3 - 12).
+                            </p>
+                        </additions>
+                        <condition>
+                            <p>Il codice si presenta in buone condizioni di conservazione e di leggibilità.</p>
+                        </condition>
+                    </physDesc>
+                    <additional>
+                        <surrogates>
+                            <p>Una riproduzione fotografica, in bianco e nero, del testimone è disponibile in:
+                                <bibl>
+                                    <author>Schneider, Friedrich.</author>
+                                    <title>Die Handschriften des Briefes Dantes an Can Grande della Scala.</title>
+                                    <publisher>Zwickau i. Sa.: Ullmann</publisher>,
+                                    <date>1933</date>
+                                    pp. 4-5.
+                                </bibl>
+                            </p>
+                        </surrogates>
+                    </additional>
+                </msDescription>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docAuthor>Dante Alighieri</docAuthor>
+                <docTitle>
+                    <titlePart type="main">Epistola a Cangrande</titlePart>
+                </docTitle>
+            </titlePage>
+        </front>
+        <body>
+            <witList>
+                <witness sigil="A">Milano, Biblioteca Ambrosiana, C. 145 inf.; 105v - 106v</witness>
+                <witness sigil="M">München, Bayerische Staatsbibliothek, Codex Latinus Monacensis 78; ff. 127r - 127v
+                </witness>
+                <witness sigil="Bg">Bergamo, Biblioteca Civica, Delta 5, 25; 49r - 49v</witness>
+                <witness sigil="V">Verona, Biblioteca Capitolare, 314; ff. 2r - 6r</witness>
+                <witness sigil="Me">Firenze, Archivio di Stato, Carte Strozziane, serie prima, 136; 145r - 151v
+                </witness>
+                <witness sigil="Ma1">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VI 164; ff. 1 – 9</witness>
+                <witness sigil="Ma2">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VI 164; ff. 10 - 15
+                </witness>
+                <witness sigil="Ma3">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VII, 1028; fasc. II, ff.
+                    87r - 101v
+                </witness>
+                <witness sigil="Ri">Firenze, Biblioteca Nazionale Centrale, Fondo Palatino, Filza Rinuccini, 19; ff. 1r
+                    - 6v
+                </witness>
+                <witness sigil="Bar">editio princeps di G. Baruffaldi, La Galleria di Minerva, III (1700), pp. 219 -
+                    228
+                </witness>
+            </witList>
+            <div>
+                <head>
+                    <figure id="fig1" file="fig1">
+                        <figDesc>[Paragraphus]</figDesc>
+                    </figure>
+                    <abbr expan="Ep(isto)la">Ep&bar;la</abbr>
+                    Dantis ad
+                    <abbr expan="mag(nificum)">mag&csup;&usup;&nas;</abbr>
+                    <abbr expan="d(omino) d(omino)">&dot;d&dot;d&dot;</abbr>
+                    Canigrandi
+                    <abbr expan="d(e)">d&bar;</abbr>
+                    la schala
+                    <abbr expan="d(omino)">&dot;d&dot;</abbr>
+                    <name reg="Verona">ueron&eced;</name>
+                    et
+                    <name reg="Vicenza">Vince<abbr expan="n">&nas;</abbr>ti&eced;
+                    </name>
+                </head>
+                <lb n="1"/>
+                <p>
+                    <pb n="126v"/>
+                    <figure id="fig2" file="fig1">
+                        <figDesc>[M]</figDesc>
+                    </figure>
+                    Agnifico at
+                    <abbr expan="que">q&ed;</abbr>
+                    Victorioso
+                    <abbr expan="d(omi)no">d&bar;no</abbr>
+                    <abbr expan="d(omino)">&dot;d&dot;</abbr>
+                    cani grandi
+                    <abbr expan="d(e)">d&bar;</abbr>
+                    la schala sa<abbr expan="cra">c&asup;</abbr>tissimi
+                    <lb n="2"/>
+                    cesarei<abbr expan="pri">p&isup;</abbr>ncipatus i
+                    <abbr expan="n">&nas;</abbr>
+                    Vrbe<abbr expan="uer">u&er;</abbr>ona
+                    <abbr expan="et">&et;</abbr>
+                    ciuitate Vince<abbr expan="n">&nas;</abbr>ti&eced; Vicario
+                    <lb n="3"/>
+                    <abbr expan="g(e)n(e)">gn&bar;</abbr>
+                    <abbr expan="ral">&ra;l</abbr>i &vbar; deuotissim
+                    <abbr expan="us">&us;</abbr>
+                    su
+                    <del type="sbarrato">
+                        <abbr expan="us">&us;</abbr>
+                    </del>
+                    <add place="sulla linea">us</add>
+                    <name reg="Dante Alighieri">dantes aligerius</name> florentin
+                    <abbr expan="us">&us;</abbr>
+                    natio<abbr expan="n">&nas;</abbr>e &vbar; no
+                    <abbr expan="n">&nas;</abbr>
+                    <lb n="4"/>
+                    morib
+                    <abbr expan="us">&us;</abbr> &vbar; uita
+                    <abbr expan="m">&nas;</abbr>
+                    orat
+                    <abbr expan="per">p&barbl;</abbr>
+                    <abbr expan="t(em)p(o)ra">t&bar;p&bar;ra</abbr>
+                    diuturna foelice
+                    <abbr expan="m">&nas;</abbr> &vbar; et<abbr expan="gl(or)">gl&ra;</abbr>iosi no<abbr
+                        expan="min">&bar;</abbr>is<abbr expan="per">p&barbl;</abbr>petuum
+                    <lb n="5"/>
+                    i<abbr expan="n">&nas;</abbr>creme<abbr expan="n">&nas;</abbr>tu
+                    <abbr expan="m">&nas;</abbr> &dot; Inclita<abbr expan="u(est)">u&bar;</abbr>r&eced; magnifice<abbr
+                        expan="n">&nas;</abbr>ti&eced; laus &vbar; qua
+                    <abbr expan="m">&nas;</abbr>
+                    fama Vigil uo-
+                    <lb n="6"/>
+                    litando disseminat &ddot; sic distrahit &ddot; ut hos i
+                    <abbr expan="n">&nas;</abbr>
+                    spem su&eced; <abbr expan="pro">p&vbar;</abbr>speritatis
+                    <lb n="7"/>
+                    attollat &ddot; hos ex<abbr expan="ter">t&er;</abbr>minii deicit in<abbr expan="ter">te&ra;</abbr>
+                    rorem &ddot; huius<abbr expan="qui">q&barbl;</abbr>dem<abbr expan="pre">p&bar;</abbr>coniu&mf;<lb
+                        n="8"/>
+                    facta mo<abbr expan="der">d&er;</abbr>no
+                    <abbr expan="rum">&rum;</abbr>
+                    exubera<abbr expan="n">&nas;</abbr>s tan
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    Veri existentia latius arbi<abbr expan="tra">t&asup;</abbr>bar
+                    <lb n="9"/>
+                    ali
+                    <abbr expan="q(ua)n(do)">q&bar;n</abbr>
+                    su<abbr expan="per">p&barbl;</abbr>fluu&mf; &ddot; Ve
+                    <abbr expan="rum">&rum;</abbr>
+                    ne diuturna me nimis in<abbr expan="cer">c&er;</abbr>titud
+                    <del>[lettera indistinguibile]</del>
+                    <add place="soprascritta">o</add>
+                    suspe
+                    <abbr expan="n">&nas;</abbr>
+                    <lb n="10"/>
+                    deret &ddot; uelud austri regina Ierusale&mf; petiit &vbar; uelud <sic corr="Pallas">palas</sic> pe
+                    <lb n="11"/>
+                    tiit elicona <hi rend="italic">[segno strano]</hi> uerona&mf; petii fidis oculis discussurus
+                    audita &vbar; Ibi
+                    <abbr expan="que">q&ed;</abbr>
+                    <lb n="12"/>
+                    magnalia<abbr expan="u(est)">u&bar;</abbr>ra uidi &ddot; Vidi<abbr expan="b(e)n(e)">bn&bar;</abbr>
+                    fitia &vbar; simili
+                    <abbr expan="ter">t&er;</abbr>
+                    <abbr expan="et">&et;</abbr>
+                    tetigi &ddot; Et que<abbr expan="m">&nas;</abbr>ad
+                    <abbr expan="mo(du)m">mo&bar;&mf;</abbr>
+                    <lb n="13"/>
+                    <abbr expan="pri">p&isup;</abbr>us dicto
+                    <abbr expan="rum">&rum;</abbr>
+                    ex parte suspicabar excessu&mf; &ddot; sic posterius<abbr expan="ip(s)">ip&bar;</abbr>a facta
+                    <lb n="14"/>
+                    excessiua cognoui &dot; Quo factu
+                    <abbr expan="m">&nas;</abbr> &vbar; ut ex auditu solo cu
+                    <abbr expan="m">&nas;</abbr>
+                    quadam
+                    <abbr expan="a(nim)i">ai&bar;</abbr>
+                    <lb n="15"/>
+                    <abbr expan="sub">sb&us;</abbr>iectio<abbr expan="n">&nas;</abbr>e<abbr expan="b(en)">b&bar;</abbr>
+                    iuolus<abbr expan="pri">p&isup;</abbr>us extiterim &ddot; sed ex usu post
+                    <abbr expan="m(odu)m">mo&bar;&mf;</abbr>
+                    <abbr expan="d(e)">d&bar;</abbr>uotissimis &vbar;<lb n="16"/>
+                    <abbr expan="et">&et;</abbr>
+                    a<abbr expan="m">&nas;</abbr>icus &dot;
+                    <hi rend="italic">[Segno di rimando]</hi>
+                    <add place="margine destro">
+                        <hi rend="italic">[Segno di rimando]</hi>
+                        <hi rend="sottolineato">Disputatio utru
+                            <abbr expan="m">&nas;</abbr>
+                            <unclear cert="100%">ami</unclear>
+                            <lb n="dx1"/>citia sit
+                            <abbr expan="i(n)t(er)">i&nas;t&er;</abbr>
+                            ine<abbr expan="qua">q&asup;</abbr>les
+                        </hi>
+                    </add>
+                    <lb n="dx2"/>
+                    <figure id="fig3" file="fig1">
+                        <figDesc>Sul margine destro, a partire dalla riga 16 e fino alla riga 33 (e quindi lungo tutto
+                            lo spazio occupato dalla discussione sull'amicizia tra persone di rango diverso,
+                            si trova il disegno di un profilo dantesco appeso ad una corda e seguito, al di sotto, da
+                            elementi decorativi che terminano con un segno di nota.
+                        </figDesc>
+                    </figure>
+                    Nec reor amici
+                    <abbr expan="no(me)n">no&bar;n</abbr>
+                    assume<abbr expan="n">&nas;</abbr>s <hi rend="italic">[segno strano]</hi> ut no
+                    <abbr expan="n">&nas;</abbr>
+                    <abbr expan="n(u)lli">nl&bar;li</abbr>
+                    forsita&mf;<lb n="16"/>
+                    obiectaret reatu&mf; <abbr expan="pre">p&bar;</abbr>su<abbr expan="m">&nas;</abbr>ptio<abbr
+                        expan="n">&nas;</abbr>is <del type="sbarrato">men</del> mere
+                    <del>re</del>
+                    <add place="interlinea">ri</add>
+                    cu&mf; no
+                    <abbr expan="n">&nas;</abbr>
+                    minus dis-
+                    <lb n="17"/>
+                    pares conectan
+                    <abbr expan="tur">t&ur;</abbr> &vbar;
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    pares amiciti&eced; sa<abbr expan="cra">c&asup;</abbr>mento &dot; <hi rend="italic">N</hi>a&mf; si
+                    delecta-
+                    <lb n="18"/>
+                    biles
+                    <abbr expan="et">&et;</abbr>
+                    utiles amicitias i<abbr expan="n">&nas;</abbr>spice
+                    <abbr expan="re">&re;</abbr>
+                    libeat &vbar; illas<abbr expan="per">p&barbl;</abbr>s&eced;pius i<abbr expan="n">&nas;</abbr>
+                    spicienti
+                    <lb n="19"/>
+                    patebit inferiores<abbr expan="con">&con;</abbr>iu<abbr expan="n">&nas;</abbr>gat<abbr expan="per">
+                    p&barbl;</abbr>sonas &dot; Et si ad uera&mf; ac
+                    <abbr expan="per">p&barbl;</abbr>
+                    se
+                    <lb n="20"/>
+                    amicitias to<abbr expan="r">&ra;</abbr>quea
+                    <abbr expan="tur">t&ur;</abbr>
+                    intuitus &ddot; Non ne su<abbr expan="m">&nas;</abbr>mo
+                    <abbr expan="rum">&rum;</abbr>
+                    illustriu&mf;
+                    <abbr expan="que">q&ed;</abbr>
+                    <abbr expan="pri">p&isup;</abbr>nci-
+                    <lb n="21"/>
+                    pu&mf; pleru
+                    <abbr expan="n">&nas;</abbr>
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    uiros fortuna obscuros honestate<abbr expan="pre">p&bar;</abbr>claros a<abbr expan="m">&nas;</abbr>
+                    icos
+                    <lb n="22"/>
+                    fuisse<abbr expan="con">&con;</abbr>stabit &qdot; Quid ni &qdot;
+                    <abbr expan="cum">cu&nas;</abbr>
+                    <abbr expan="etiam">&et;&bar;</abbr>
+                    dei
+                    <abbr expan="et">&et;</abbr>
+                    ho<abbr expan="min">&bar;</abbr>is a<abbr expan="m">&nas;</abbr>icitia nequa
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    i<abbr expan="m">&nas;</abbr>pedi-
+                    <lb n="23"/>
+                    atur excessu
+                    <del>&qdot;</del>
+                    <add place="soprascritta">&dot;</add>
+                    <abbr expan="qui">q&barbl;</abbr>d si cuiq&bar;&mf;
+                    <abbr expan="quod">q&vbar;</abbr>
+                    asserit nu<abbr expan="n">&nas;</abbr>c uideret i<abbr expan="n">&nas;</abbr>dignu
+                    <abbr expan="m">&nas;</abbr>
+                    spi-
+                    <lb n="24"/>
+                    ritu
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="s(an)ctum">s&bar;ctum</abbr>
+                    audiat a<abbr expan="m">&nas;</abbr>iciti&eced; su&eced; <abbr expan="par">p&barbl;</abbr>ticipes
+                    quosda&mf;
+                    <abbr expan="ho(m)i(n)es">ho&bar;ies</abbr>
+                    <abbr expan="pro">p&vbar;</abbr>fite<abbr expan="n">&nas;</abbr>te&mf; &dot;<lb n="25"/>
+                    Na&mf; i
+                    <abbr expan="n">&nas;</abbr>
+                    sapie<abbr expan="n">&nas;</abbr>tia
+                    <abbr expan="d(e)">d&bar;</abbr>
+                    <abbr expan="sapi(entia)">sapi&asup;</abbr>
+                    legi
+                    <abbr expan="tur">t&ur;</abbr> &vbar;
+                    <abbr expan="q(uonia)m">q&bar;m</abbr>
+                    Infinitus thesaurus
+                    <abbr expan="e(st)">e&bar;</abbr>
+                    <abbr expan="ho(min)i">ho&bar;i</abbr>b
+                    <abbr expan="us">&us;</abbr>
+                    <lb n="26"/>
+                    <abbr expan="quo">q&osup;</abbr>
+                    <abbr expan="qui">q&barbl;</abbr>
+                    su<abbr expan="n">&nas;</abbr>t amiciti&eced; dei &tdot;
+                    <abbr expan="Sed">S&ed;</abbr>
+                    <abbr expan="h(abe)t">h&bar;t</abbr>
+                    i
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="per">p&barbl;</abbr>itia Vulgi sine discretione
+                    <lb n="27"/>
+                    iuditiu&mf; &vbar; et que<abbr expan="m">&nas;</abbr>ad
+                    <abbr expan="mo(du)m">mo&bar;&mf;</abbr>
+                    sole&mf; pedalis magnitudinis arbitratur
+                    <lb n="28"/>
+                    sic
+                    <abbr expan="et">&et;</abbr>
+                    <abbr expan="contra">&con;&bar;</abbr>
+                    mores uana credulitate<abbr expan="de">d&bar;</abbr>cipi
+                    <abbr expan="tur">t&ur;</abbr> &dot; Nos
+                    <abbr expan="aut(em)">aut&bar;</abbr>
+                    <abbr expan="qui">q&barbl;</abbr>b
+                    <abbr expan="us">&us;</abbr>
+                    optimu
+                    <abbr expan="m">&nas;</abbr>
+                    <lb n="29"/>
+                    <abbr expan="qui">q&barbl;</abbr>de&mf;
+                    <abbr expan="e(st)">e&bar;</abbr>
+                    i
+                    <abbr expan="n">&nas;</abbr>
+                    nobis noscere datu&mf;
+                    <abbr expan="e(st)">e&bar;</abbr>
+                    <del>regum</del>
+                    <add place="interlinea">
+                        <sic corr="gregum">gregu</sic>
+                    </add>
+                    uestigia sectari no
+                    <abbr expan="n">&nas;</abbr>
+                    decet
+                    <lb n="30"/>
+                    <abbr expan="quim">
+                        <sic corr="quin">q&barbl;m</sic>
+                    </abbr>
+                    ymo suis<abbr expan="er">e&rsup;</abbr>roribus obuiare tenemur &dot; Na
+                    <abbr expan="m">&nas;</abbr>
+                    i<abbr expan="n">&nas;</abbr>tellectu at
+                    <abbr expan="que">q&ed;</abbr>
+                    <abbr expan="r(ati)one">r&bar;one</abbr>
+                    <lb n="31"/>
+                    dege<abbr expan="n">&nas;</abbr>tes diuina quadam li<abbr expan="ber">b&er;</abbr>tate dotati<abbr
+                        expan="n(u)ll">nl&bar;l</abbr>is<abbr expan="con">&con;</abbr>suetudinib
+                    <abbr expan="us">&us;</abbr>
+                    astri
+                    <abbr expan="n">&nas;</abbr>
+                    <lb n="32"/>
+                    gitur &dot; Nec mi
+                    <abbr expan="rum">&rum;</abbr>
+                    cu
+                    <abbr expan="m">&nas;</abbr>
+                    no
+                    <abbr expan="n">&nas;</abbr>
+                    <abbr expan="ip(s)">ip&bar;</abbr>i legib
+                    <abbr expan="us"></abbr>&us; &ddot; sed<abbr expan="ip(s)">ip&bar;</abbr>is leges potius diriga<abbr
+                        expan="n">&nas;</abbr>tur &dot;<lb n="33"/>
+                    liquet
+                    <abbr expan="ig(i)t(ur)">igt&ur;</abbr>
+                    <abbr expan="quod">q&vbar;</abbr>
+                    su<abbr expan="per">p&barbl;</abbr>ius dixi &vbar; me
+                    <abbr expan="s(cilicet)">&dot;s&dot;</abbr>
+                    <abbr expan="e(ss)e">e&bar;e</abbr>
+                    <abbr expan="d(e)">d&bar;</abbr>uotissimu
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="et">&et;</abbr>
+                    a<abbr expan="m">&nas;</abbr>icum<abbr expan="n(u)ll">nl&bar;l</abbr>atenus
+                    <lb n="34"/>
+                    <abbr expan="e(ss)e">e&bar;e</abbr>
+                    <abbr expan="pre">p&bar;</abbr>sumptu
+                    <abbr expan="m">&nas;</abbr> &ddot; <abbr expan="pre">p&bar;</abbr>fere<abbr expan="n">&nas;</abbr>s
+                    <abbr expan="ig(i)t(ur)">igt&ur;</abbr>
+                    a<abbr expan="m">&nas;</abbr>icitia&mf; <abbr expan="u(est)">u&bar;</abbr>ra&mf;
+                    <abbr expan="q(uas)i">q&bar;i</abbr>
+                    thesau
+                    <abbr expan="rum">&rum;</abbr>
+                    carissimu&mf;<lb n="35"/>
+                    <abbr expan="pro">p&vbar;</abbr>uidentia dilligenti
+                    <abbr expan="et">&et;</abbr>
+                    <sic corr="accurata">aculara</sic> solicitudi<abbr expan="n">&nas;</abbr>e illa
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="ser">s&er;</abbr>uare<abbr expan="d(e)">d&bar;</abbr>sidero &dot;<lb n="36"/>
+                    Ita
+                    <abbr expan="que">q&ed;</abbr>
+                    cu
+                    <abbr expan="m">&nas;</abbr>
+                    i
+                    <abbr expan="n">&nas;</abbr>
+                    dogmatib
+                    <abbr expan="us">&us;</abbr>
+                    <del type="sbarrato">p</del> moralis
+                    <del type="espunto">
+                        <abbr expan="ph(ilosoph)iae">ph&bar;i&eced;</abbr>
+                    </del>
+                    negotii ami
+                    <del type="sbarrato">ti</del>
+                    <add place="interlinea">ci</add>tia&mf; ade<abbr expan="qua">q&asup;</abbr>ui &vbar;<lb n="37"/>
+                    <abbr expan="et">&et;</abbr>
+                    saluari
+                    <del type="espunto">
+                        <sic>innalorgo</sic>
+                    </del>
+                    doceatur ad retribue<abbr expan="n">&nas;</abbr>du&mf;
+                    <abbr expan="pro">p&vbar;</abbr>
+                    collatis<abbr expan="b(en)">b&bar;</abbr>ificiis plus
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    <lb n="38"/>
+                    semel
+                    <sic corr="analogiam">anologia&mf;</sic>
+                    se
+                    <abbr expan="qui">q&barbl;</abbr>
+                    <abbr expan="m(ihi)">m&isup;</abbr>
+                    <del type="espunto">uotiuum</del>
+                    <abbr expan="e(st)">e&bar;</abbr> &ddot;
+                    <abbr expan="et">&et;</abbr>
+                    <abbr expan="p(ro)p(ter)">p&bar;p&er;</abbr>
+                    hoc munuscula s&eced;pe
+                    <abbr expan="m(u)ltum">m&bar;ltu&mf;</abbr>
+                    <lb n="39"/>
+                    <pb n="127r"/>
+                    aspexi &vbar;
+                    <abbr expan="et">&et;</abbr>
+                    ab i<abbr expan="n">&nas;</abbr>uicem segregaui &vbar; nec no
+                    <abbr expan="n">&nas;</abbr>
+                    segregata<abbr expan="pro">p&vbar;</abbr>cessui dignius
+                    <lb n="1"/>
+                    gratius
+                    <abbr expan="que">q&ed;</abbr>
+                    nobis i
+                    <abbr expan="n">&nas;</abbr>
+                    <abbr expan="qui">q&barbl;</abbr>rens &ddot; ne
+                    <abbr expan="que">q&ed;</abbr>
+                    <abbr expan="pre">p&bar;</abbr>mine<abbr expan="n">&nas;</abbr>ti&eced; <abbr expan="u(est)">
+                    u&bar;</abbr>r&eced; <abbr expan="con">&con;</abbr>gruum magis
+                    <lb n="2"/>
+                    <abbr expan="com">&con;</abbr>
+                    <abbr expan="per">p&barbl;</abbr>i
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    comedi&eced; <abbr expan="sub">sb&us;</abbr>lime
+                    <abbr expan="m">&nas;</abbr>
+                    cantica
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="quae">q&bar;</abbr>
+                    decora
+                    <abbr expan="tur">t&ur;</abbr>
+                    titulo paradisi
+                    <lb n="3"/>
+                    <abbr expan="et">&et;</abbr>
+                    illa&mf;
+                    <abbr expan="sub">sb&us;</abbr>
+                    <abbr expan="p(rese)">p&bar;</abbr>nti
+                    <abbr expan="ep(isto)la">ep&bar;la</abbr>
+                    tan
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    <abbr expan="sub">sb&us;</abbr>
+                    epigramate
+                    <abbr expan="pro">p&vbar;</abbr>
+                    <abbr expan="pri">p&isup;</abbr>o<abbr expan="d(e)">d&bar;</abbr>dicata
+                    <abbr expan="m">&nas;</abbr>
+                    uobis
+                    <lb n="4"/>
+                    ascribo &ddot; Vobis offero &ddot;
+                    <sic corr="uobis">
+                        <abbr expan="uobus">uob&us;</abbr>
+                    </sic>
+                    deni
+                    <abbr expan="que">q&ed;</abbr>
+                    re<add place="interlinea">co</add>mendo &dot; Illud
+                    <abbr expan="quoque">q&ed;&osup;</abbr>
+                    <del type="sbarrato">
+                        <abbr expan="pro">p&vbar;</abbr>
+                    </del>
+                    <abbr expan="pre">p&bar;</abbr>
+                    <abbr expan="ter">t&er;</abbr>ire
+                    <del type="sbarrato">scl&bar;</del>
+                    <lb n="5"/>
+                    scile<abbr expan="n">&nas;</abbr>tio no
+                    <abbr expan="n">&nas;</abbr>
+                    sinit affectus &vbar;
+                    <abbr expan="quod">q&vbar;</abbr>
+                    i
+                    <abbr expan="n">&nas;</abbr>
+                    hac donatione plus
+                    <sic corr="dono">do&bar;no</sic>
+                    <abbr expan="quam">q&bar;&mf;</abbr>
+                    <abbr expan="d(omi)no">d&bar;no</abbr>
+                    <lb n="6"/>
+                    <abbr expan="et">&et;</abbr>
+                    honoris
+                    <abbr expan="et">&et;</abbr>
+                    fam&eced; <abbr expan="con">&con;</abbr>ferri uideri
+                    <abbr expan="pot(est)">pot&bar;</abbr> &dot; Quid miru
+                    <abbr expan="m">&nas;</abbr> &vbar; cu
+                    <abbr expan="m">&nas;</abbr>
+                    eius
+                    <lb n="7"/>
+                    titulu
+                    <abbr expan="m">&nas;</abbr>
+                    ia
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="pre">p&bar;</abbr>sagia&mf;
+                    <abbr expan="d(e)">d&bar;</abbr>
+                    <abbr expan="gl(or)ia">gl&bar;ia</abbr>
+                    <abbr expan="u(est)">u&bar;</abbr>ri
+                    <abbr expan="no(min)is">no&bar;is</abbr>
+                    ampliandu
+                    <abbr expan="m">&nas;</abbr>
+                    satis hactenus
+                    <lb n="8"/>
+                    uidebar ex<abbr expan="pre">p&bar;</abbr>sisse
+                    <abbr expan="quod">q&vbar;</abbr>
+                    <abbr expan="d(e)">d&bar;</abbr>
+                    <abbr expan="pro">p&vbar;</abbr>
+                    <abbr expan="po(s)i">po&bar;i</abbr>to fui &ddot;
+                    <abbr expan="sed">s&ed;</abbr>
+                    zelus
+                    <abbr expan="gr(ati)ae">gr&bar;&eced;</abbr>
+                    <abbr expan="u(est)">u&bar;</abbr>r&eced; quam
+                    <lb n="9"/>
+                    scitio<abbr expan="u(est)">u&bar;</abbr>ra&mf; <abbr expan="par">p&barbl;</abbr>uipe<abbr
+                        expan="n">&nas;</abbr>dens a<abbr expan="pri">p&isup;</abbr>mordio meta
+                    <abbr expan="m">&nas;</abbr>
+                    <abbr expan="pre">p&bar;</abbr>fixa&mf; Vrgere Vl<abbr expan="ter">t&er;</abbr>ius &dot;<lb n="10"/>
+                    Ita
+                    <abbr expan="que">q&ed;</abbr>
+                    formula<abbr expan="con">&con;</abbr>sumata
+                    <abbr cert="ep(isto)lae">ep&bar;l&eced;</abbr>
+                    ad i
+                    <abbr expan="n">&nas;</abbr>
+                    <abbr expan="t(ro)">t&osup;</abbr>dutio<abbr expan="n">&nas;</abbr>e&mf; oblati o<abbr expan="per">
+                    p&barbl;</abbr>is ali<abbr expan="qui">q&barbl;</abbr>d
+                    <lb n="11"/>
+                    <abbr expan="sub">sb&us;</abbr>
+                    lectoris offitio<abbr expan="com">&con;</abbr>pe<abbr expan="n">&nas;</abbr>diose
+                    agrediar &fdot; &tilde;
+                    <del type="sbarrato">Finis &vtdot;
+                        <name reg="Iohannes Bernarbus de Vallibus">
+                            <abbr expan="Io(hannes)">Io&dot;</abbr>
+                            <abbr expan="b(ernardus)">b&er;</abbr>&dot;
+                        </name>
+                    </del>
+                    <lb n="12"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI.2>

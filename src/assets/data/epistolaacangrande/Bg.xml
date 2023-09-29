@@ -1,0 +1,243 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM "D:\Documenti\Tesi di diploma\Manoscritti codificati\DTD\myTEIDTD.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Epistola a Cangrande</title>
+<author><name>Dante Alighieri</name></author>
+<respStmt>
+<resp id="MG">Edizione elettronica curata da: </resp>
+<name>Paolo Rembadi.</name>
+</respStmt> 
+</titleStmt>
+<publicationStmt>
+<publisher>CRILet – 
+Centro Ricerche Informatica e Letteratura</publisher>
+<authority>Paolo Rembadi</authority>
+<availability status="restricted">
+<p>Copyright CRILet – Centro Ricerche Informatica e Letteratura</p>
+</availability>
+<date>2002</date>
+</publicationStmt>
+<sourceDesc default="YES">
+<msDescription status="compo" type="codice">
+	<msIdentifier>
+		<country>Italia</country>
+		<region>Lombardia</region>
+		<settlement>Bergamo</settlement>
+		<institution>Biblioteca Civica</institution>
+		<repository>???</repository>
+		<collection>???</collection>
+		<idno>Delta 5, 25</idno>
+		<altName>Bergamasco</altName>
+	</msIdentifier>
+	<msHeading>
+		<author>Dante Alighieri</author>
+		<title>Epistola a Cangrande</title>
+		<respStmt>
+			<resp>[sconosciuto]</resp>
+		</respStmt>
+		<origPlace>[sconosciuto]</origPlace>
+		<origDate notBefore="1415" notAfter="1444" evidence="internal">XV sec. m</origDate>
+		<textLang>Latino</textLang>
+		<note>
+			Questo manoscritto fu ritrovato nel 1939 nella Biblioteca Civica di Bergamo da Paul Kristeller 
+			(Kristeller I, 11) e il suo ritrovamento venne comunicato ad Augusto Mancini che nello stesso 
+			anno descrisse e collazionò il testo dell’Epistola contenuto in esso (Mancini 1939). 
+			Il manoscritto che riporta Bg è miscellaneo e contiene alcune opere in poesia e molte in prosa 
+			alcune delle quali forniscono interessanti indizi per la datazione: la prima opera contenuta 
+			nel manoscritto è la vita di Demostene di Plutarco nella traduzione di Leonardo Aretino 
+			(Leonardo Bruni). L’inscriptio dell’opera si riferisce al traduttore come ancora in vita e giacchè 
+			la data di morte del Bruni è il 1444, la traduzione da Plutarco presente nel manoscritto di Bergamo 
+			deve essere anteriore a quella data. Inoltre il Baron (o il Mehus?) data la suddetta opera del Bruni 
+			al 1412 che così costituirebbe il termine <hi rend="italic">post quem</hi> per la datazione del manoscritto. 
+			Ancora un’opera del Bruni aiuta nella datazione: nel manoscritto si trova una copia della traduzione 
+			della vita di Cicerone di Plutarco che viene datata dal Baron al 1415. Questo dato restringe ulteriormente 
+			lo spazio di tempo in cui può essere collocato il manoscritto. E’ però possibile che, dato il carattere 
+			miscellaneo del manoscritto, siano stati unite parti diverse composte in epoche diverse.
+		</note>
+	</msHeading>
+	<msContents>
+		<msItem defective="no">
+			<locus from="49r" to="49v">ff. 49r-49v</locus>
+			<author attested="yes" accepted="n">Dante Alighieri</author>
+			<title>Epistola a Cangrande</title>
+			<bibl>
+				<author>Brugnoli Giorgio, ed.</author>  
+				<title>“Epistola XIII [a Cangrande].”</title> 
+			  	In <title>La letteratura italiana: storia e testi.  
+			  	[Opere minori di Dante Alighieri.  vol. 2.]</title> 
+			  	<publisher>Milano-Napoli: Ricciardi</publisher>, <date value="1979">1979</date>: 
+			  	vol. 5, parte 2: 512-21; 558-643.
+			</bibl>
+			<incipit type="intestazione">Il testo dell’Epistola è preceduto dall’<hi rend="italic">inscriptio</hi> 
+				"Danthes Alegherius <abbr expan="d(omino) d(omino)">&dot;d&dot;d&dot;</abbr> <hi rend="italic">C</hi>anigrandi de la Scala <abbr expan="salutem dicit">&dot;s&dot; d&dot;</abbr>"
+			</incipit>
+			<summary>Il manoscritto contiene soltanto una parte dell'Epistola, per come essa appare nelle edizioni moderne, 
+				e cioé la cosidetta parte nuncupatoria, equivalente ai cap. 1-4. Nonostante questo non ritengo che il testo 
+				sia da considerarsi mutilo in quanto la tradizione dell'Epistola presenta, a mio avviso, due distinte redazioni,
+				ognuna delle quali da considerarsi completa e coerente. In 
+			</summary>
+		</msItem>
+	</msContents>
+	<physDesc>
+		<form><p>Codice</p></form>
+		<support><p><material>Carta</material></p></support>
+		<extent>91 fogli
+			<dimensions type="leaves" scope="all">
+				<height units="mm">210</height>
+				<width units="mm">150</width>
+			</dimensions>
+		</extent>
+		<collation>
+			<p>Diversamente dagli altri testimoni della famiglia, il testo di Bg è presentato in una versione 
+			molto semplice. L’<hi rend="italic">inscriptio</hi> è nella forma convenzionale dell’epistolografia 
+			latina ma non è in alcun modo evidenziata. Il testo di questa <hi rend="italic">inscriptio</hi> è 
+			Danthes Alegherius <abbr expan="d(omino) d(omino)">&dot;d&dot;d&dot;</abbr> <hi rend="italic">C</hi>anigrandi de la Scala <abbr expan="salutem dicit">&dot;s&dot; d&dot;</abbr>. 
+			Tutta la <hi rend="italic">intitulatio</hi> dantesca (da 'Magnifico' fino ad 'incrementum') formulata sui canoni 
+			medioevali di reverenza è sostituita da questa formula. Come l’<hi rend="italic">inscriptio</hi>, 
+			così anche tutto il testo è rivisto in chiave classicista. Il 'uos', che nell’uso medioevale si è obbligati 
+			ad usare verso un destinatario di rango superiore, è regolarmente sostituito da un più classico 'tu'.</p>
+			<p>Il fatto che il testo di Bg sia presentato in maniera diversa rispetto ad A e a M, che dovrebbero 
+			essere a lui coevi, ci testimonia il mutare della committenza e dell’utenza di un testo. 
+			La patina classica ci riporta ad una cultura, quella del XV secolo, che si opponeva al sistema medioevale 
+			considerato al di fuori dell’humanitas e della razionalità e quindi barbaro. Per questa opposizione 
+			tutte le formule convenzionali di devozione ad un destinatario che ricopre un’alta carica non hanno più 
+			alcun significato. Il testo dell’Epistola, nella versione di Bg, potrebbe quindi essere stato alterato 
+			dal copista per farlo rispondere a canoni sentiti più vicini alla propria cultura, oppure potrebbe essere 
+			stato copiato da un giurista che lo considerava un exemplum di retorica sul modo di rivolgersi ad un 
+			imperatore. In entrambi i casi si può facilmente spiegare l’omissione della formula medioevale di dedica: 
+			o per specifica volontà o per scarso interesse. D’altra parte i testimoni A e M ci appaiono ancora derivati 
+			da diverse esigenze e da un’aura molto distante da quella di Bg: ad esempio il testo di M, oltre alla lettera 
+			iniziale miniata e alla inscrizione, riporta sul margine destro, come già detto, una spiegazione a modo di glossa 
+			al testo. Invece i margini di Bg non sono segnati in maniera netta e questo sta forse a testimoniare 
+			la perdita di una concezione che appariva invecchiata in tema di impaginazione del testo: se infatti il testo 
+			dell’Epistola nella versione di Bg fosse stato copiato soltanto con l’intento di fornire un modello retorico 
+			elevato sulle relazioni tra persone di rango diverso, tutta la impostazione grafica, che ha uno specifico significato 
+			di porre in evidenza un testo e anche di testimoniare l’importanza sua e del suo autore, non sarebbe stata di alcun 
+			interesse per il copista.</p>
+		</collation>
+		<layout columns="1" writtenLines="42">
+			<p>Il testo della parte nuncupatoria dell'Epistola, disposto su una colonna singola, si estende 
+			su una pagina e mezzo. Il numero delle righe per pagina 42. 
+			La seconda pagina, 49v, riporta solo 21 righe.</p>
+		</layout>
+		<msWriting hands="1">
+			<p>Il testo dell'Epistola è scritto in una gotica corsiva tonda, compatta e ricca di abbeviazioni. 
+			Il testo sembra essere stato scritto tutto dalla stessa mano.</p>
+		</msWriting>
+		<decoration>
+			<p>Il testo appare spoglio e privo di qualsiasi elemento decorativo.</p>
+		</decoration>
+		<foliation>
+			<p>In epoca più moderna rispetto alla composizione del codice è stato aggiunta, all'estremo margine
+			destro in alto di ogni <hi rend="italic">recto</hi>, una paginazione in cifre arabe con un
+			inchiostro di colore blu.</p>
+		</foliation>
+		<condition><p>Il codice si presenta in buone condizioni di conservazione ma la leggibilità,
+			in alcuni punti, è stata ampiamente compromessa dall'umidità ed in casi estremi
+			si è dovuto procedere al confronto con altri codici per supplire al testo mancante.</p>
+		</condition>
+	</physDesc>
+	<additional>
+		<surrogates>
+			<p>Il manoscritto Bg è stato scoperto dopo la data di pubblicazione della riproduzione
+			fotografica dello Schneider. Per l'edizione mi sono quindi basato su di una riproduzione 
+			fotografica a colori gentilmente	concessa dalla Biblioteca civica di Bergamo.</p>
+		</surrogates>
+	</additional>
+</msDescription>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docAuthor>Dante Alighieri</docAuthor>
+<docTitle>
+<titlePart type="main">Epistola a Cangrande</titlePart>
+</docTitle>
+</titlePage>
+</front>
+<body>
+<witList>
+	<witness sigil="A">Milano, Biblioteca Ambrosiana, C. 145 inf.; 105v - 106v</witness>
+	<witness sigil="M">München, Bayer. Staatsbibl., clm 78; ff. 127r - 127v</witness>
+	<witness sigil="Bg">Bergamo, Biblioteca Civica, Delta 5, 25; 49r - 49v</witness>
+	<witness sigil="V">Verona, Biblioteca Capitolare, 314; ff. 2r - 6r</witness>
+	<witness sigil="Me">Firenze, Archivio di Stato, Carte Strozziane, serie prima, 136; 145r - 151v</witness>
+	<witness sigil="Ma1">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VI 164; ff. 1 – 9</witness>
+	<witness sigil="Ma2">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VI 164; ff. 10 - 15</witness>
+	<witness sigil="Ma3">Firenze, Biblioteca Nazionale Centrale, Magliabechianus VII, 1028; fasc. II, ff. 87r - 101v</witness>
+	<witness sigil="Ri">Firenze, Biblioteca Nazionale Centrale, Fondo Palatino, Filza Rinuccini, 19; ff. 1r - 6v</witness>
+	<witness sigil="Bar">editio princeps di G. Baruffaldi, La Galleria di Minerva, III (1700), pp. 219 - 228</witness>
+</witList>
+<div>
+<head>Danthes Alegherius <abbr expan="d(omino) d(omino)">&dot;d&dot;d&dot;</abbr> <hi rend="italic">C</hi>anigrandi de la Scala <abbr expan="salutem dicit">&dot;s&dot; d&dot;</abbr><lb n="1"/></head>
+<p>Inclite magnificentie tue laus <abbr expan="quam">qua&nas;</abbr> fama <sic corr="uigil">iugil</sic><lb n="2"/> 
+uolitando disseminat &vbar; sic distrahit in di<abbr expan="uer">u&er;</abbr>sa di<abbr expan="uer">u&er;</abbr>sos &vbar;<lb n="3"/>
+ut hos in spe sue <abbr expan="pro">p&vbar;</abbr>s<abbr expan="per">p&barbl;</abbr>itatis attollat &vbar; hos ex<abbr expan="ter">t&er;</abbr>minii <lb n="4"/>
+deiiciat in <abbr expan="ter">t&er;</abbr>rorem</p> <p>Huius quide<abbr expan="m">&nas;</abbr> <abbr expan="pre">p&bar;</abbr>coniu&mf; facta<lb n="5"/>
+mo<abbr expan="der">d&er;</abbr>noru&mf; exu<abbr expan="per">p&barbl;</abbr>ans tan<abbr expan="quam">q&bar;&mf;</abbr> ueri existentia lati<abbr expan="us">&us;</abbr><lb n="6"/>
+arbitrabar aliquando su<abbr expan="per">p&barbl;</abbr>fluu<abbr expan="m">&nas;</abbr>&dot;</p> <p>Veru<abbr expan="m">&nas;</abbr> ne diu<abbr expan="tur">t&ur;</abbr>na<lb n="7"/>
+me nimis incertitudo suspende<abbr expan="re">&re;</abbr>t &vbar; uelut austri re&ndash;<lb n="8"/>
+gina <abbr expan="yerusalem">yerl&bar;m</abbr> petiit &vbar; uelut pallas Elicona petii Ve&ndash;<lb n="9"/>
+rona<abbr expan="m">&nas;</abbr> fidis occulis discussur<abbr expan="us">&us;</abbr> audita&dot;</p> <p>Ibi <abbr expan="que">q&ed;</abbr> ma<abbr expan="gna">g&asup;</abbr>lia<lb n="10"/>
+tua uidi <abbr expan="pro">p&vbar;</abbr>spexi <abbr expan="que">q&ed;</abbr> <abbr expan="bene">ben&bar;</abbr>ficia si<abbr expan="mul">l&bar;</abbr> <abbr expan="et">&et;</abbr> tetigi</p> <p>Et que<abbr expan="m">&nas;</abbr>ad&ndash;<lb n="11"/>
+<abbr expan="mo(du)m">mo&bar;m</abbr> prius dictoru&mf; ex <abbr expan="par">p&barbl;</abbr>te suspicabar excessu&mf;<lb n="12"/>
+sic posterius <abbr expan="ips">ip&bar;</abbr>a facta excessiua cognoui</p> <p>Quo<lb n="13"/>
+effectu<abbr expan="m">&nas;</abbr> <abbr expan="est">e&bar;</abbr> ut exaudita solo cu&mf; quada<abbr expan="m">&nas;</abbr> <abbr expan="a(nim)i">a&bar;i</abbr> <abbr expan="s(u)b">sb&us;</abbr>iec<abbr expan="t(i)o(n)e">t&bar;oe</abbr><lb n="14"/>
+beniuolus <abbr expan="pri">p&isup;</abbr>us extiteri<abbr expan="m">&nas;</abbr> &vbar; <abbr expan="s(ed)">s&ed;</abbr> ex uisu post modum<lb n="15"/>
+deuotissimus <abbr expan="et">&et;</abbr> fidelis amicus</p> <p><damage type="umidità (?)"><unclear cert="80%" reason="inchiostro scolorito">Nec reor</unclear></damage> amici <abbr expan="nom(en)">nom&bar;</abbr><lb n="16"/>
+assume<abbr expan="n">&nas;</abbr>s ut no<abbr expan="n">&nas;</abbr> nulli forsitan <damage type="umidità">ob<unclear cert="100%">iectar</unclear>et</damage> <abbr expan="pre">p&bar;</abbr>sum&ndash;<lb n="17"/>
+ptio<abbr expan="n">&nas;i</abbr>s reatu<abbr expan="m">&nas;</abbr> mereri <hi rend="italic">[un punto sormontato da una linea orizzontale sul lato destro]</hi></p> <p>cu&mf; no<abbr expan="n">&nas;</abbr> <damage type="umidità"><unclear cert="100%">minus dispares</unclear></damage> con&ndash;<lb n="18"/>
+nectan<abbr expan="tur">t&ur;</abbr> <abbr expan="quam">q&bar;&mf;</abbr> pares a<abbr expan="m">&nas;</abbr>icicie sacra<abbr expan="m(en)to">m&bar;to</abbr></p> <p>Nam et si<lb n="19"/>
+dellectabiles <abbr expan="et">&et;</abbr> utiles a<abbr expan="m">&nas;</abbr>icicias inspice<abbr expan="re">&re;</abbr> libeat illic<lb n="20"/>
+<abbr expan="per">p&barbl;</abbr>sæpius inspicie<abbr expan="n">&nas;</abbr>ti patebit <abbr expan="pre">p&bar;</abbr>eminetes i<abbr expan="n">&nas;</abbr>feri<abbr expan="or">o&bar;</abbr>ib<abbr expan="us">&us;</abbr><lb n="21"/>
+<abbr expan="con">&con;</abbr>iugatas <abbr expan="per">p&barbl;</abbr>sonas</p> <p>Et si ad uera<abbr expan="m">&nas;</abbr> ac <abbr expan="per">p&barbl;</abbr> se a<abbr expan="m">&nas;</abbr>ici<damage><supplied>ci</supplied></damage>am<lb n="22"/>
+torqueatur intuit<abbr expan="us">&us;</abbr> &vbar; no<abbr expan="n">&nas;</abbr> ne illustriu&mf; &ddot; summoru<abbr expan="m">&nas;</abbr><abbr expan="que">q&ed;</abbr><lb n="23"/>
+<abbr expan="pri">p&isup;</abbr>ncipu<abbr expan="m">&nas;</abbr> pleru<abbr expan="m">&nas;</abbr><abbr expan="que">q&ed;</abbr> uiros fortuna obscuros honesta&ndash;<lb n="24"/>
+te <abbr expan="pre">p&bar;</abbr>claros attame<abbr expan="n">&nas;</abbr> a<abbr expan="m">&nas;</abbr>icos fuisse <abbr expan="con">&con;</abbr>stabit&dot;</p> <p>qu<damage><unclear cert="100%">id</unclear></damage> ni&qdot;<lb n="25"/></p>
+<p>cum et <del type="lettere cancellate con sbarre oblique">de</del> <damage><supplied>d</supplied></damage>ei et <abbr expan="ho(min)is">ho&bar;is</abbr> nequa<abbr expan="quam">q&bar;&mf;</abbr> impediatur exces<damage><supplied>su</supplied></damage>&dot;<lb n="26"/></p> 
+<p><abbr expan="Quod">q&vbar;</abbr> si cui<abbr expan="quam">q&bar;&mf;</abbr> <damage><abbr expan="quod">q&vbar;</abbr></damage> as<abbr expan="ser">s&er;</abbr>i<abbr expan="tur">t&ur;</abbr> nu<abbr expan="n">&nas;</abbr>c uidere<abbr expan="tur">t&ur;</abbr> indignu<abbr expan="m">&nas;</abbr> <abbr expan="sp(iritu)m s(an)c(tu)m">sp&bar;&mf; sc&bar;m</abbr> <lb n="27"/>
+audiat a<abbr expan="m">&nas;</abbr>icicie suae <abbr expan="par">p&barbl;</abbr>ticipes quosda&mf; <abbr expan="ho(m)i(n)es">ho&bar;ies</abbr> <abbr expan="pro">p&vbar;</abbr>fiten&ndash;<lb n="28"/>
+tem</p> <p>Nam i<abbr expan="n">&nas;</abbr> <abbr expan="sapi(enti)a">sapi&bar;a</abbr> de <abbr expan="sapi(enti)a">sapi&bar;a</abbr> legitur <abbr expan="quo(niam)">quo&bar;</abbr> infini<abbr expan="tus">t&us;</abbr><lb n="29"/>
+thesau<abbr expan="rus">r&us;</abbr> <abbr expan="e(st)">e&bar;</abbr> <abbr expan="ho(min)ibus">ho&bar;ibus</abbr> quo qui usi <abbr expan="s(un)t">st&us;</abbr> <abbr expan="par">p&barbl;</abbr>ticipes facti<lb n="30"/>
+<abbr expan="s(un)t">st&us;</abbr> amicicie dei</p> <p><abbr expan="Sed">S&ed;</abbr> <abbr expan="h(abe)t">h&bar;t</abbr> im<abbr expan="per">p&barbl;</abbr>itia uulgi sine discre&ndash; <lb n="31"/>
+tio<abbr expan="n">&nas;</abbr>e iudiciu<abbr expan="m">&nas;</abbr> et que<abbr expan="m">&nas;</abbr>ad<abbr expan="mo(du)m">mo&bar;m</abbr> sole&mf; pedalis ma<abbr expan="gni">g&isup;</abbr>tudi<abbr expan="ni">&bar;</abbr>s<lb n="32"/>
+arbitra<abbr expan="tur">t&ur;</abbr> &vbar; si et <abbr expan="con">&con;</abbr>tra mores uana crudelitate decipi<abbr expan="tur">t&ur;</abbr><lb n="33"/></p>
+<p>Nos <abbr expan="aut(em)">aut&bar;</abbr> <abbr expan="qui">&qui;</abbr>bus opti<abbr expan="m">&nas;</abbr>u&mf; <abbr expan="quod">q&vbar;</abbr> <abbr expan="e(st)">e&bar;</abbr> in nobis nosce<abbr expan="re">&re;</abbr> datu<abbr expan="m">&nas;</abbr> est<lb n="34"/>
+gregu&mf; uestigia sectari no<abbr expan="n">&nas;</abbr> dec<abbr expan="et">&et;</abbr> <abbr expan="quin">&qui;n</abbr> ymo suis &dot; <lb n="35"/>
+erroribus obuiare tene<abbr expan="mur">m&ur;</abbr> &dot; na<abbr expan="m">&nas;</abbr> intellectu <sic corr="atque">at&ed;</sic> <abbr expan="r(ati)one">r&bar;one</abbr><lb n="36"/> 
+indigentes diuina quada<abbr expan="m">&nas;</abbr> li<abbr expan="ber">b&er;</abbr>tate dotati nullis co<abbr expan="n">&nas;</abbr><lb n="37"/>
+suetudi<abbr expan="ni">&bar;</abbr>bus asstri<abbr expan="n">&nas;</abbr>gun<abbr expan="tur">t&ur;</abbr></p> <p>Nec miru<abbr expan="m">&nas;</abbr> tu<abbr expan="m">&nas;</abbr> no<abbr expan="n">&nas;</abbr> <abbr expan="ip(s)">ip&bar;</abbr>i legibus<lb n="38"/>
+potius dirrigu<abbr expan="n">&nas;</abbr><abbr expan="tur">t&ur;</abbr>&dot;</p> <p>Liquet <abbr expan="ig(itur)">ig&ur;</abbr> <abbr expan="quod">q&vbar;</abbr> su<abbr expan="per">p&barbl;</abbr>ius  dixi me <abbr expan="s(cilicet)">&dot;s&dot;</abbr><lb n="39"/>
+<abbr expan="e(ss)e">e&bar;e</abbr> deuotissimu<abbr expan="m">&nas;</abbr> <abbr expan="et">&et;</abbr> a<abbr expan="m">&nas;</abbr>icu&mf; nullatenus <abbr expan="e(ss)e">e&bar;e</abbr> <abbr expan="pre">p&bar;</abbr>sumptu<abbr expan="m">&nas;</abbr>&dot;<lb n="40"/></p>
+<p><abbr expan="Pro">p&vbar;</abbr>fecto <abbr expan="ig(it)ur">ig&ur;</abbr> amicicia&mf; tua<abbr expan="m">&nas;</abbr> <abbr expan="q(ua)si">q&asup;si</abbr> thesau<abbr expan="r(um)">&rum;</abbr> carissi<abbr expan="m">&nas;</abbr>u&mf; <abbr expan="pro">p&vbar;</abbr><lb n="41"/>
+uide<abbr expan="n">&nas;</abbr>tia dillige<abbr expan="n">&nas;</abbr>ti <abbr expan="et">&et;</abbr> accurata sollicitudi<abbr expan="n">&nas;</abbr>e illam<lb n="42"/><pb n="49r"/>
+<abbr expan="s(er)">s&er;</abbr>uare desidero totis affectibus diutius <abbr expan="con">&con;</abbr>cupita<abbr expan="m">&nas;</abbr></p> <p>Ita<abbr expan="q(ue)">q&ed;</abbr><lb n="1"/>
+cum in dogmatibus moralis negocii a<abbr expan="m">&nas;</abbr>icicia<abbr expan="m">&nas;</abbr> ade<lb n="2"/>
+quari <abbr expan="et">&et;</abbr> <abbr expan="s(er)">s&er;</abbr>uari analogo docea<abbr expan="t(ur)">t&ur;</abbr> ad re<abbr expan="t(r)i">t&isup;</abbr>bue<abbr expan="n">&nas;</abbr>du<abbr expan="m">&nas;</abbr> pro<lb n="3"/> 
+collatis <abbr expan="b(e)n(e)">bn&bar;</abbr>ficiis plus<abbr expan="quam">q&bar;&mf;</abbr> semel anologia<abbr expan="m">&nas;</abbr> <sic corr="sequi">soqui</sic><lb n="4"/>
+uotiuu&mf; <abbr expan="e(st)">e&bar;</abbr></p> <p>Et <abbr expan="p(ro)p(ter)">p&bar;p</abbr> hoc munuscula mea sepe<lb n="5"/>
+multu<abbr expan="m">&nas;</abbr> <abbr expan="con">&con;</abbr>s<damage type="umidità ">pexi</damage> <abbr expan="et">&et;</abbr> ab i<abbr expan="n">&nas;</abbr>uice<abbr expan="m">&nas;</abbr> segregaui Nec no<abbr expan="n">&nas;</abbr> se<abbr expan="g(r)e">g&esup;</abbr>&ndash;<lb n="6"/>
+gata <damage type="umidità "><unclear cert="80%"><abbr expan="per">p&barbl;</abbr>censui</unclear></damage> Ne<abbr expan="que">q&ed;</abbr> <abbr expan="pre">p&bar;</abbr>eminentie tue <abbr expan="con">&con;</abbr>gruu<abbr expan="m">&nas;</abbr> <abbr expan="q(ui)d">&qui;d</abbr><lb n="7"/>
+<damage type="umidità"><unclear cert="80%">magis</unclear> <supplied>cons</supplied></damage>pexi <abbr expan="quam">q&bar;&mf;</abbr> comedie <abbr expan="s(u)b">sb&bar;</abbr>lime<abbr expan="m">&nas;</abbr> canticam<lb n="8"/>
+<damage type="umidità"><abbr expan="quae">q&bar;</abbr> decora<unclear cert="80%"><abbr expan="t(ur)">t&ur;</abbr></unclear></damage> titulo paradisi</p> <p>Et illa<abbr expan="m">&nas;</abbr>  <abbr expan="s(u)b">sb&bar;</abbr> <abbr expan="p(rese)nti">p&bar;nti</abbr> <abbr expan="ep(isto)l">epl&bar;</abbr>a <lb n="9"/>
+<damage type="umidità">ta<abbr expan="m">&nas;</abbr><abbr expan="quam">q&bar;&mf;</abbr> sub e</damage>pigrammate <abbr expan="pro">p&vbar;</abbr><abbr expan="pri">p&isup;</abbr>o dedicata&mf; ubi adscribo<lb n="10"/>
+<damage type="umidità"><unclear cert="100%">tibi</unclear></damage> offero <hi>[sbarra obliqua]</hi> tibi deni<abbr expan="q(ue)">q&ed;</abbr> recome<abbr expan="n">&nas;</abbr>do</p> <p>Illud <abbr expan="q(u)o(que)">q&ed;&osup;</abbr> <abbr expan="pre">p&bar;</abbr><abbr expan="t(er)">t&er;</abbr>ire<lb n="11"/>
+<damage type="umidità"><unclear cert="80%">silentio</unclear></damage> <abbr expan="simpl(icite)r">simpl&bar;r</abbr> <sic corr="inardesce(n)s">mardesce<abbr expan="n">&nas;</abbr>s</sic> no<abbr expan="n">&nas;</abbr> sinit affectus <abbr expan="quod">q&vbar;</abbr><lb n="12"/>
+in <damage type="umidità"><unclear cert="100%">hac</unclear></damage> donatio<abbr expan="n">&nas;</abbr>e plus dono <abbr expan="quam">q&bar;&mf;</abbr> <abbr expan="d(omi)no">d&bar;no</abbr> <abbr expan="et">&et;</abbr> honoris <abbr expan="et">&et;</abbr><lb n="13"/>
+fame conferri <abbr expan="pot(est)">pot&bar;</abbr></p> <p>Quid miru<abbr expan="m">&nas;</abbr>&qdot;</p> <p>cu<abbr expan="m">&nas;</abbr> eius  titu&ndash;<lb n="14"/>
+lum ia<abbr expan="m">&nas;</abbr> <damage type="umidità"><supplied>presagiam de</supplied></damage> <abbr expan="gl(or)">gl&bar;</abbr>ia tui <abbr expan="no(min)is">no&bar;is</abbr> ampliandu&mf;<lb n="15"/></p>
+<p>Satis <damage type="umidità"><supplied>hactenus</supplied></damage> uide<damage type="umidità"><unclear cert="100%">b</unclear></damage>ar ex<abbr expan="pre">p&bar;</abbr>ssisse <abbr expan="quod">q&vbar;</abbr> de <abbr expan="pro">p&vbar;</abbr>posito<lb n="16"/>
+fuit <damage type="umidità"><supplied>sed</supplied> <unclear cert="80%">zelus</unclear></damage> <abbr expan="gr(ati)e">gr&bar;e</abbr> tue qua&mf; sitio quasi uitam<lb n="17"/>
+<abbr expan="par">p&barbl;</abbr>uip<damage type="umidità"><unclear cert="100%">e&nas;</unclear></damage>dens a <abbr expan="p(r)i">p&isup;</abbr>mordio meta&mf; <abbr expan="pre">p&bar;</abbr>fixam urget<lb n="18"/>
+ulterius</p> <p>Ita<abbr expan="que">q&ed;</abbr> formula <abbr expan="con">&con;</abbr>sumata <abbr expan="ep(isto)l">epl&bar;</abbr>e ad in&ndash;<lb n="19"/>
+<damage type="umidità">tr<supplied>odu</supplied>cti<supplied>o</supplied>&nas;<supplied>em</supplied></damage> lati <unclear cert="100%">o</unclear>peris ali<abbr expan="qui">&qui;</abbr>d <abbr expan="s(u)b">sb&bar;</abbr> lectionis officio<lb n="20"/>
+<damage type="umidità"><abbr expan="com">&con;</abbr>pe<supplied>nd</supplied>ios<supplied>e</supplied> <supplied>aggr</supplied>ediar<hi rend="italic">[la coda della r finale tonda è allungata]</hi></damage>&dotcom;<lb n="21"/></p>
+</div>
+</body>
+</text>
+</TEI.2>
