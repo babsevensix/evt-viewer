@@ -16,7 +16,7 @@ const appRoutes: Routes = [
   { path: 'textVersions', component: TextVersionsComponent },
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' })],
+  imports: [RouterModule.forRoot(appRoutes, {})],
   exports: [RouterModule],
 })
 export class AppRoutingModule {
