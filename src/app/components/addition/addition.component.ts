@@ -1,12 +1,14 @@
 import { Component, Input } from '@angular/core';
 
+import { EditionLevelType, TextFlow } from 'src/app/app.config';
 import { EditorialConventionLayoutData } from '../../directives/editorial-convention-layout.directive';
-import { Addition } from '../../models/evt-models';
+import { Addition, HighlightData } from '../../models/evt-models';
 import { register } from '../../services/component-register.service';
 import { EditorialConventionDefaults } from '../../services/editorial-conventions.service';
-import { EditionlevelSusceptible, Highlightable } from '../components-mixins';
+import { EditionlevelSusceptible, Highlightable, TextFlowSusceptible } from '../components-mixins';
+import { EntitiesSelectItem } from '../entities-select/entities-select.component';
 
-export interface AdditionComponent extends EditionlevelSusceptible, Highlightable { }
+export interface IAdditionComponent extends EditionlevelSusceptible, Highlightable, TextFlowSusceptible { }
 
 @register(Addition)
 @Component({
@@ -14,7 +16,11 @@ export interface AdditionComponent extends EditionlevelSusceptible, Highlightabl
   templateUrl: './addition.component.html',
   styleUrls: ['./addition.component.scss'],
 })
-export class AdditionComponent {
+export class AdditionComponent implements IAdditionComponent {
+  @Input() editionLevel: EditionLevelType;
+  @Input() highlightData: HighlightData;
+  @Input() itemsToHighlight: EntitiesSelectItem[];
+  @Input() textFlow: TextFlow;
   @Input() data: Addition;
 
   get editorialConventionData(): EditorialConventionLayoutData {

@@ -1,11 +1,13 @@
 import { Component, Input } from '@angular/core';
 
+import { EditionLevelType, TextFlow } from 'src/app/app.config';
 import { EditorialConventionLayoutData } from '../../directives/editorial-convention-layout.directive';
-import { Deletion } from '../../models/evt-models';
+import { Deletion, HighlightData } from '../../models/evt-models';
 import { register } from '../../services/component-register.service';
-import { EditionlevelSusceptible, Highlightable } from '../components-mixins';
+import { EditionlevelSusceptible, Highlightable, TextFlowSusceptible } from '../components-mixins';
+import { EntitiesSelectItem } from '../entities-select/entities-select.component';
 
-export interface DeletionComponent extends EditionlevelSusceptible, Highlightable { }
+export interface IDeletionComponent extends EditionlevelSusceptible, Highlightable, HighlightData, TextFlowSusceptible { }
 
 @register(Deletion)
 @Component({
@@ -13,7 +15,13 @@ export interface DeletionComponent extends EditionlevelSusceptible, Highlightabl
   templateUrl: './deletion.component.html',
   styleUrls: ['./deletion.component.scss'],
 })
-export class DeletionComponent {
+export class DeletionComponent implements IDeletionComponent {
+  @Input() textFlow: TextFlow;
+  @Input() highlight: boolean;
+  @Input() highlightColor: string;
+  @Input() editionLevel: EditionLevelType;
+  @Input() highlightData: HighlightData;
+  @Input() itemsToHighlight: EntitiesSelectItem[];
   @Input() data: Deletion;
 
   get editorialConventionData(): EditorialConventionLayoutData {

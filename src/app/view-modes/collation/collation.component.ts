@@ -1,5 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { CompactType, DisplayGrid, GridsterConfig, GridsterItem, GridType } from 'angular-gridster2';
+import { CompactType, DisplayGrid, GridType, GridsterConfig, GridsterItem } from 'angular-gridster2';
 import { map } from 'rxjs/operators';
 import { Page } from 'src/app/models/evt-models';
 import { EVTStatusService } from 'src/app/services/evt-status.service';
@@ -10,7 +10,7 @@ import { EvtIconInfo } from 'src/app/ui-components/icon/icon.component';
   templateUrl: './collation.component.html',
   styleUrls: ['./collation.component.scss'],
 })
-export class CollationComponent {
+export class CollationComponent  {
   @ViewChild('collationPanel', { static: true }) collationPanel: ElementRef;
 
   private witnesses: WitnessItem[] = [];

@@ -1,10 +1,8 @@
-import { NgxSliderModule } from '@angular-slider/ngx-slider';
 import { ScrollingModule as ExperimentalScrollingModule } from '@angular/cdk-experimental/scrolling';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { HttpClientModule } from '@angular/common/http';
 import { APP_INITIALIZER, ApplicationRef, DoBootstrap, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -19,9 +17,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppTranslationModule } from './app-translation.module';
 import { AppComponent } from './app.component';
 
-import { Ng2HandySyntaxHighlighterModule } from 'ng2-handy-syntax-highlighter';
 import { AppConfig } from './app.config';
 
+import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgxSliderModule } from 'ngx-slider-v2';
+import { Ng2HandySyntaxHighlighterModule } from '../library/handy-syntax/Ng2HandySyntaxHighlighterModule';
 import { AdditionComponent } from './components/addition/addition.component';
 import { AdditionalComponent } from './components/additional/additional.component';
 import { ApparatusEntryDetailComponent } from './components/apparatus-entry/apparatus-entry-detail/apparatus-entry-detail.component';
@@ -88,6 +89,7 @@ import { VersesGroupComponent } from './components/verses-group/verses-group.com
 import { WordComponent } from './components/word/word.component';
 import { AnnotatorDirective } from './directives/annotator.directive';
 import { EditorialConventionLayoutDirective } from './directives/editorial-convention-layout.directive';
+import { HandleImgErrorDirective } from './directives/handle-img-error.directive';
 import { HighlightDirective } from './directives/highlight.directive';
 import { HtmlAttributesDirective } from './directives/html-attributes.directive';
 import { EvtInfoComponent } from './evt-info/evt-info.component';
@@ -119,7 +121,6 @@ import { ReadingTextComponent } from './view-modes/reading-text/reading-text.com
 import { TextSourcesComponent } from './view-modes/text-sources/text-sources.component';
 import { TextTextComponent } from './view-modes/text-text/text-text.component';
 import { TextVersionsComponent } from './view-modes/text-versions/text-versions.component';
-import { HandleImgErrorDirective } from './directives/handle-img-error.directive';
 
 const routes: Routes = [
 ];
@@ -234,16 +235,18 @@ const DynamicComponents = [
     AppTranslationModule,
     BrowserModule,
     BrowserAnimationsModule,
+    CommonModule,
     DynamicAttributesModule,
     DynamicModule,
     ExperimentalScrollingModule,
     FormsModule,
     GridsterModule,
     HttpClientModule,
+    NgxSliderModule,
     Ng2HandySyntaxHighlighterModule,
     NgbModule,
     NgbPopoverModule,
-    NgxSliderModule,
+    // NgxSliderModule,
     NgxSpinnerModule,
     RouterModule.forRoot(routes, { useHash: true }),
     ScrollingModule,

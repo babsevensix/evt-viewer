@@ -1,9 +1,11 @@
 import { Component, Input } from '@angular/core';
-import { GenericElement } from '../../models/evt-models';
+import { EditionLevelType, TextFlow } from 'src/app/app.config';
+import { GenericElement, HighlightData } from '../../models/evt-models';
 import { register } from '../../services/component-register.service';
 import { EditionlevelSusceptible, Highlightable, TextFlowSusceptible } from '../components-mixins';
+import { EntitiesSelectItem } from '../entities-select/entities-select.component';
 
-export interface GenericElementComponent extends EditionlevelSusceptible, Highlightable, TextFlowSusceptible { }
+export interface IGenericElementComponent extends EditionlevelSusceptible, Highlightable, TextFlowSusceptible { }
 
 @Component({
   selector: 'evt-generic-element',
@@ -11,6 +13,10 @@ export interface GenericElementComponent extends EditionlevelSusceptible, Highli
   styleUrls: ['./generic-element.component.scss'],
 })
 @register(GenericElement)
-export class GenericElementComponent {
+export class GenericElementComponent implements IGenericElementComponent{
+  @Input() editionLevel: EditionLevelType;
+  @Input() highlightData: HighlightData;
+  @Input() itemsToHighlight: EntitiesSelectItem[];
+  @Input() textFlow: TextFlow;
   @Input() data: GenericElement;
 }

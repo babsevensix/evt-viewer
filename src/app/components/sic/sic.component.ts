@@ -1,12 +1,14 @@
 import { Component, Input } from '@angular/core';
 import { EditorialConventionDefaults } from 'src/app/services/editorial-conventions.service';
 
+import { EditionLevelType, TextFlow } from 'src/app/app.config';
 import { EditorialConventionLayoutData } from '../../directives/editorial-convention-layout.directive';
-import { Sic } from '../../models/evt-models';
+import { HighlightData, Sic } from '../../models/evt-models';
 import { register } from '../../services/component-register.service';
-import { EditionlevelSusceptible, Highlightable } from '../components-mixins';
+import { EditionlevelSusceptible, Highlightable, TextFlowSusceptible } from '../components-mixins';
+import { EntitiesSelectItem } from '../entities-select/entities-select.component';
 
-export interface SicComponent extends EditionlevelSusceptible, Highlightable { }
+export interface ISicComponent extends EditionlevelSusceptible, Highlightable, TextFlowSusceptible { }
 
 @Component({
   selector: 'evt-sic',
@@ -14,7 +16,11 @@ export interface SicComponent extends EditionlevelSusceptible, Highlightable { }
   styleUrls: ['./sic.component.scss'],
 })
 @register(Sic)
-export class SicComponent {
+export class SicComponent implements ISicComponent {
+  @Input() textFlow: TextFlow;
+  @Input() editionLevel: EditionLevelType;
+  @Input() highlightData: HighlightData;
+  @Input() itemsToHighlight: EntitiesSelectItem[];
 
   @Input() data: Sic;
 
