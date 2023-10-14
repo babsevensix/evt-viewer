@@ -1,14 +1,32 @@
 import { Component, OnInit } from '@angular/core';
-import { DisplayGrid, GridsterConfig, GridsterItem, GridType } from 'angular-gridster2';
+import {
+  DisplayGrid,
+  GridsterComponent,
+  GridsterConfig,
+  GridsterItem,
+  GridsterItemComponent,
+  GridType
+} from 'angular-gridster2';
 import { map, shareReplay } from 'rxjs/operators';
 import { Page } from 'src/app/models/evt-models';
 import { EVTStatusService } from 'src/app/services/evt-status.service';
 import { EditionLevel } from '../../app.config';
+import { TextPanelComponent } from '../../panels/text-panel/text-panel.component';
+import { SourcesPanelComponent } from '../../panels/sources-panel/sources-panel.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'evt-text-sources',
   templateUrl: './text-sources.component.html',
   styleUrls: ['./text-sources.component.scss'],
+  standalone:  true,
+  imports: [
+    GridsterComponent,
+    GridsterItemComponent,
+    TextPanelComponent,
+    SourcesPanelComponent,
+    CommonModule,
+  ]
 })
 export class TextSourcesComponent implements OnInit {
   public options: GridsterConfig = {};

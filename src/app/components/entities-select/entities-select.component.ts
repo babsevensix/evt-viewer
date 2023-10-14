@@ -1,6 +1,10 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { AppConfig } from '../../app.config';
 import { EvtIconInfo } from '../../ui-components/icon/icon.component';
+import { CommonModule } from '@angular/common';
+import { UiComponentsModule } from '../../ui-components/ui-components.module';
+import { TranslateModule } from '@ngx-translate/core';
+import { FormsModule } from '@angular/forms';
 
 export interface EntitiesSelectItemGroup {
   label: string;
@@ -18,6 +22,13 @@ export interface EntitiesSelectItem {
   selector: 'evt-entities-select',
   templateUrl: './entities-select.component.html',
   styleUrls: ['./entities-select.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    UiComponentsModule,
+    TranslateModule,
+    FormsModule,
+  ]
 })
 export class EntitiesSelectComponent {
   @Output() selectionChange: EventEmitter<EntitiesSelectItem[]> = new EventEmitter();

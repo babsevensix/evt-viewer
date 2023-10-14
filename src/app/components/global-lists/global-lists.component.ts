@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
 
 import { NamedEntitiesList, Relation } from '../../models/evt-models';
 import { EVTModelService } from '../../services/evt-model.service';
 import { Map } from '../../utils/js-utils';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
+import { IconComponent } from '../../ui-components/icon/icon.component';
+import { ContentViewerComponent } from '../content-viewer/content-viewer.component';
 
 interface GlobalList extends NamedEntitiesList {
   icon: string;
@@ -14,8 +18,17 @@ interface GlobalList extends NamedEntitiesList {
   selector: 'evt-global-lists',
   templateUrl: './global-lists.component.html',
   styleUrls: ['./global-lists.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    TranslateModule,
+    IconComponent,
+    ContentViewerComponent,
+  ]
 })
 export class GlobalListsComponent {
+
+
   lists$: Observable<GlobalList[]> = this.evtModelService.namedEntities$.pipe(
     map((ne) => (ne.persons.lists.concat(ne.places.lists, ne.organizations.lists, ne.events.lists))),
     map((lists) => (lists.map((list) => ({
@@ -62,4 +75,6 @@ export class GlobalListsComponent {
     this.showRelations = true;
     this.selectedList = undefined;
   }
+
+
 }

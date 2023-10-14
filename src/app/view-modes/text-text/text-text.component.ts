@@ -1,16 +1,33 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { DisplayGrid, GridsterConfig, GridsterItem, GridType } from 'angular-gridster2';
+import {
+  DisplayGrid,
+  GridsterComponent,
+  GridsterConfig,
+  GridsterItem,
+  GridsterItemComponent,
+  GridType
+} from 'angular-gridster2';
 import { BehaviorSubject, combineLatest, Subscription } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { Page } from 'src/app/models/evt-models';
 import { EVTStatusService } from 'src/app/services/evt-status.service';
 
 import { EditionLevel } from '../../app.config';
+import { TextPanelComponent } from '../../panels/text-panel/text-panel.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'evt-text-text',
   templateUrl: './text-text.component.html',
   styleUrls: ['./text-text.component.scss'],
+  standalone: true,
+  imports: [
+    GridsterComponent,
+    GridsterItemComponent,
+    TextPanelComponent,
+      CommonModule,
+
+  ]
 })
 export class TextTextComponent implements OnInit, OnDestroy {
   public options: GridsterConfig = {

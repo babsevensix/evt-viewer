@@ -17,13 +17,12 @@ import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
     declarations: [
-        ButtonComponent,
-        ClickOutsideDirective,
-        EscapeDirective,
-        HeaderSectionComponent,
-        IconComponent,
-        ModalComponent,
-        PanelComponent,
+
+
+
+
+
+
     ],
     imports: [
         CommonModule,
@@ -33,6 +32,13 @@ import { PanelComponent } from './panel/panel.component';
         DynamicModule,
         NgbModule,
         NgSelectModule,
+        PanelComponent,
+        ButtonComponent,
+        IconComponent,
+        EscapeDirective,
+        ModalComponent,
+        HeaderSectionComponent,
+        ClickOutsideDirective,
     ],
     exports: [
         ButtonComponent,

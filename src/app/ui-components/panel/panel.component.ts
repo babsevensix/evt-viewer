@@ -1,9 +1,16 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ButtonComponent } from '../button/button.component';
 
 @Component({
   selector: 'evt-panel',
   templateUrl: './panel.component.html',
   styleUrls: ['./panel.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    ButtonComponent,
+  ]
 })
 export class PanelComponent implements OnInit {
   @Input() comparable: boolean;

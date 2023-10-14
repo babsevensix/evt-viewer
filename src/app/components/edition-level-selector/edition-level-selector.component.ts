@@ -3,11 +3,24 @@ import { BehaviorSubject, combineLatest, of } from 'rxjs';
 import { distinctUntilChanged, filter, map } from 'rxjs/operators';
 import { AppConfig, EditionLevelType } from '../../app.config';
 import { EvtIconInfo } from '../../ui-components/icon/icon.component';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
+import { NgSelectModule } from '@ng-select/ng-select';
+import { FormsModule } from '@angular/forms';
+import { UiComponentsModule } from '../../ui-components/ui-components.module';
 
 @Component({
   selector: 'evt-edition-level-selector',
   templateUrl: './edition-level-selector.component.html',
   styleUrls: ['./edition-level-selector.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    TranslateModule,
+    NgSelectModule,
+    FormsModule,
+    UiComponentsModule,
+  ]
 })
 export class EditionLevelSelectorComponent {
   public editionLevels = (AppConfig.evtSettings.edition.availableEditionLevels || []).filter((el) => el.enable);

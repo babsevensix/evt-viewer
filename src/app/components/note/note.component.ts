@@ -1,7 +1,10 @@
 import { Component, Input, ViewChild } from '@angular/core';
 import { NgbPopover } from '@ng-bootstrap/ng-bootstrap';
-import { Note } from '../../models/evt-models';
+import { HighlightData, Note } from '../../models/evt-models';
 import { register } from '../../services/component-register.service';
+import { EditionlevelSusceptible, Highlightable, TextFlowSusceptible } from '../components-mixins';
+import { EntitiesSelectItem } from '../entities-select/entities-select.component';
+import { EditionLevelType, TextFlow } from '../../app.config';
 
 @Component({
   selector: 'evt-note',
@@ -9,7 +12,7 @@ import { register } from '../../services/component-register.service';
   styleUrls: ['./note.component.scss'],
 })
 @register(Note)
-export class NoteComponent {
+export class NoteComponent implements TextFlowSusceptible,EditionlevelSusceptible,Highlightable{
   @Input() data: Note;
   @ViewChild('popover', { static: true }) popover: NgbPopover;
 
@@ -22,4 +25,9 @@ export class NoteComponent {
   onTriggerClicked(event: MouseEvent) {
     event.stopPropagation();
   }
+
+  @Input() highlightData: HighlightData;
+  @Input() itemsToHighlight: EntitiesSelectItem[];
+  @Input() editionLevel: EditionLevelType;
+  @Input() textFlow: TextFlow;
 }

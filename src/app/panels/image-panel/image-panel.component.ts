@@ -3,11 +3,26 @@ import { BehaviorSubject, combineLatest, merge, Observable, Subject } from 'rxjs
 import { distinctUntilChanged, filter, map, withLatestFrom } from 'rxjs/operators';
 import { Page, ViewerDataType } from '../../models/evt-models';
 import { EVTModelService } from '../../services/evt-model.service';
+import { PanelComponent } from '../../ui-components/panel/panel.component';
+import { PageSelectorComponent } from '../../components/page-selector/page-selector.component';
+import { CommonModule } from '@angular/common';
+import { MsDescSelectorComponent } from '../../components/ms-desc-selector/ms-desc-selector.component';
+import { OsdComponent } from '../../components/osd/osd.component';
+import { MsDescComponent } from '../../components/ms-desc/ms-desc.component';
 
 @Component({
   selector: 'evt-image-panel',
   templateUrl: './image-panel.component.html',
   styleUrls: ['./image-panel.component.scss'],
+  standalone: true,
+  imports: [
+    PanelComponent,
+    PageSelectorComponent,
+    CommonModule,
+    MsDescSelectorComponent,
+    OsdComponent,
+    MsDescComponent
+  ]
 })
 export class ImagePanelComponent {
   @Input() viewerData: ViewerDataType;

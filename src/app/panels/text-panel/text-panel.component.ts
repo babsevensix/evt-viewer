@@ -2,16 +2,39 @@ import { Component, ElementRef, Input, Output, ViewChild } from '@angular/core';
 import { BehaviorSubject, combineLatest, merge, Observable, Subject } from 'rxjs';
 import { delay, distinctUntilChanged, filter, map, shareReplay, tap, withLatestFrom } from 'rxjs/operators';
 import { AppConfig, EditionLevel, EditionLevelType, TextFlow } from '../../app.config';
-import { EntitiesSelectItem } from '../../components/entities-select/entities-select.component';
+import {
+  EntitiesSelectComponent,
+  EntitiesSelectItem
+} from '../../components/entities-select/entities-select.component';
 import { Page } from '../../models/evt-models';
 import { EVTModelService } from '../../services/evt-model.service';
 import { EVTStatusService } from '../../services/evt-status.service';
 import { EvtIconInfo } from '../../ui-components/icon/icon.component';
+import { CommonModule } from '@angular/common';
+import { PanelComponent } from '../../ui-components/panel/panel.component';
+import { UiComponentsModule } from '../../ui-components/ui-components.module';
+import { TranslateModule } from '@ngx-translate/core';
+import { PageComponent } from '../../components/page/page.component';
+import { PageSelectorComponent } from '../../components/page-selector/page-selector.component';
+import {
+  EditionLevelSelectorComponent
+} from '../../components/edition-level-selector/edition-level-selector.component';
 
 @Component({
   selector: 'evt-text-panel',
   templateUrl: './text-panel.component.html',
   styleUrls: ['./text-panel.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    PanelComponent,
+    UiComponentsModule,
+    EntitiesSelectComponent,
+    TranslateModule,
+    PageComponent,
+    PageSelectorComponent,
+    EditionLevelSelectorComponent,
+  ]
 })
 export class TextPanelComponent {
   // tslint:disable-next-line: variable-name

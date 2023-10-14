@@ -1,13 +1,16 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { EditionDataService } from '../../services/edition-data.service';
-import { distinctUntilChanged, first, map, startWith, switchMap, tap} from 'rxjs/operators';
+import { distinctUntilChanged, first, map, startWith, switchMap, tap } from 'rxjs/operators';
 import { PrefatoryMatterParserService } from '../../services/xml-parsers/prefatory-matter-parser.service';
 import { EVTModelService } from '../../services/evt-model.service';
 import { BehaviorSubject, merge, Subject } from 'rxjs';
 import { EVTStatusService } from '../../services/evt-status.service';
-import { Page} from '../../models/evt-models';
+import { Page } from '../../models/evt-models';
 import { EntitiesSelectItem } from '../../components/entities-select/entities-select.component';
 import { EditionLevel, TextFlow } from '../../app.config';
+import { CommonModule } from '@angular/common';
+import { PanelComponent } from '../../ui-components/panel/panel.component';
+import { PageComponent } from '../../components/page/page.component';
 
 @Component({
   selector: 'evt-witness-panel',
@@ -18,6 +21,13 @@ import { EditionLevel, TextFlow } from '../../app.config';
     PrefatoryMatterParserService,
     EVTModelService,
     EVTStatusService
+  ],
+  standalone: true,
+  imports: [
+    CommonModule,
+    PanelComponent,
+    PageComponent,
+
   ]
 
 })

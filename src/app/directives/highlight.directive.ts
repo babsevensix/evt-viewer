@@ -3,6 +3,7 @@ import { HighlightData } from '../models/evt-models';
 
 @Directive({
   selector: '[evtHighlight]',
+  standalone: true,
 })
 export class HighlightDirective {
   @Input('evtHighlight') set highlightData(hd: HighlightData) {
@@ -14,8 +15,8 @@ export class HighlightDirective {
   ) {
   }
 
-  private highlight(highlightData: HighlightData) {
-    if (highlightData.highlight) {
+  private highlight(highlightData: HighlightData | undefined) {
+    if (highlightData && highlightData.highlight) {
       this.el.nativeElement.classList.add('highlight');
     } else {
       this.el.nativeElement.classList.remove('highlight');

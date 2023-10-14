@@ -1,9 +1,16 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'evt-icon',
   templateUrl: './icon.component.html',
   styleUrls: ['./icon.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    FontAwesomeModule,
+  ]
 })
 export class IconComponent implements OnInit {
   @Input() iconInfo: EvtIconInfo;

@@ -1,6 +1,6 @@
 import { Component, ComponentRef, Input, OnDestroy, ViewChild, ViewContainerRef } from '@angular/core';
 
-import { AttributesMap } from 'ng-dynamic-component';
+import { AttributesMap, DynamicAttributesDirective, DynamicComponent, DynamicIoDirective } from 'ng-dynamic-component';
 import { BehaviorSubject, combineLatest, Observable } from 'rxjs';
 import { filter, map, shareReplay } from 'rxjs/operators';
 import { EditionLevelType, TextFlow } from '../../app.config';
@@ -8,10 +8,18 @@ import { GenericElement } from '../../models/evt-models';
 import { ComponentRegisterService } from '../../services/component-register.service';
 import { EntitiesSelectService } from '../../services/entities-select.service';
 import { EntitiesSelectItem } from '../entities-select/entities-select.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'evt-content-viewer',
   templateUrl: './content-viewer.component.html',
+  standalone: true,
+  imports: [
+    CommonModule,
+    DynamicComponent,
+    DynamicAttributesDirective,
+    DynamicIoDirective,
+  ]
 })
 export class ContentViewerComponent implements OnDestroy {
   private v: GenericElement;

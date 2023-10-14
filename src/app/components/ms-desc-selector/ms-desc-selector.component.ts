@@ -1,12 +1,19 @@
-import { EventEmitter, Output, ViewChild } from '@angular/core';
-import { Component, Input } from '@angular/core';
-import { NgSelectComponent } from '@ng-select/ng-select';
+import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { NgSelectComponent, NgSelectModule } from '@ng-select/ng-select';
 import { EVTModelService } from 'src/app/services/evt-model.service';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'evt-ms-desc-selector',
   templateUrl: './ms-desc-selector.component.html',
   styleUrls: ['./ms-desc-selector.component.scss'],
+  standalone: true,
+  imports: [
+    NgSelectModule,
+    CommonModule,
+      TranslateModule,
+  ]
 })
 export class MsDescSelectorComponent {
   public msDesc$ = this.evtModelService.msDesc$;

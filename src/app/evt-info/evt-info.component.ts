@@ -4,6 +4,10 @@ import { Component } from '@angular/core';
   selector: 'evt-evt-info',
   templateUrl: './evt-info.component.html',
   styleUrls: ['./evt-info.component.scss'],
+  standalone: true,
+  imports:[
+
+  ]
 })
 export class EvtInfoComponent {
 }

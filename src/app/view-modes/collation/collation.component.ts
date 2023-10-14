@@ -1,14 +1,37 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { CompactType, DisplayGrid, GridType, GridsterConfig, GridsterItem } from 'angular-gridster2';
+import {
+  CompactType,
+  DisplayGrid,
+  GridsterComponent,
+  GridsterConfig,
+  GridsterItem,
+  GridsterItemComponent,
+  GridType
+} from 'angular-gridster2';
 import { map } from 'rxjs/operators';
 import { Page } from 'src/app/models/evt-models';
 import { EVTStatusService } from 'src/app/services/evt-status.service';
 import { EvtIconInfo } from 'src/app/ui-components/icon/icon.component';
+import { CommonModule } from '@angular/common';
+import { UiComponentsModule } from '../../ui-components/ui-components.module';
+import { TranslateModule } from '@ngx-translate/core';
+import { WitnessPanelComponent } from '../../panels/witness-panel/witness-panel.component';
+import { TextPanelComponent } from '../../panels/text-panel/text-panel.component';
 
 @Component({
   selector: 'evt-collation',
   templateUrl: './collation.component.html',
   styleUrls: ['./collation.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    GridsterComponent,
+    GridsterItemComponent,
+    UiComponentsModule,
+    TranslateModule,
+    WitnessPanelComponent,
+    TextPanelComponent
+  ]
 })
 export class CollationComponent  {
   @ViewChild('collationPanel', { static: true }) collationPanel: ElementRef;

@@ -71,6 +71,10 @@ To:
   selector: 'evt-osd',
   templateUrl: './osd.component.html',
   styleUrls: ['./osd.component.scss'],
+  standalone: true,
+  imports:[
+
+  ]
 })
 export class OsdComponent implements AfterViewInit, OnDestroy {
 

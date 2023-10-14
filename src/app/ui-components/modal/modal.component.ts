@@ -1,16 +1,38 @@
 import {
-  Attribute, Component, ElementRef, EventEmitter, HostBinding, HostListener,
-  Input, OnInit, Output, ViewChild,
+  Attribute,
+  Component,
+  ElementRef,
+  EventEmitter,
+  HostBinding,
+  HostListener,
+  Input,
+  OnInit,
+  Output,
+  ViewChild,
 } from '@angular/core';
 
 import { ThemesService } from '../../services/themes.service';
-import { EvtIconInfo } from '../icon/icon.component';
+import { EvtIconInfo, IconComponent } from '../icon/icon.component';
 import { ModalService } from './modal.service';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
+import { ButtonComponent } from '../button/button.component';
+import { DynamicComponent } from 'ng-dynamic-component';
+import { EscapeDirective } from '../directives/escape.directive';
 
 @Component({
   selector: 'evt-modal',
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    IconComponent,
+    TranslateModule,
+    ButtonComponent,
+    DynamicComponent,
+    EscapeDirective,
+  ]
 })
 export class ModalComponent implements OnInit {
   @Input() closeOnShadow: boolean;
@@ -49,7 +71,7 @@ export class ModalComponent implements OnInit {
   @HostListener('click', ['$event'])
   clickout(event) {
     const modal = this.modalDialog.nativeElement;
-    const internalClick: boolean = event.path.find((o) => o.className && o.className.indexOf && o.className.indexOf(modal.className) >= 0);
+    const internalClick: boolean = event.path?.find((o) => o.className && o.className.indexOf && o.className.indexOf(modal.className) >= 0);
     if (this.closeOnShadow && !internalClick) {
       this.closeDialog();
     }

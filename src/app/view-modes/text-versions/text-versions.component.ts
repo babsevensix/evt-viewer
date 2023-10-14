@@ -1,15 +1,38 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { CompactType, DisplayGrid, GridsterConfig, GridsterItem, GridType } from 'angular-gridster2';
+import {
+  CompactType,
+  DisplayGrid,
+  GridsterComponent,
+  GridsterConfig,
+  GridsterItem,
+  GridsterItemComponent,
+  GridType
+} from 'angular-gridster2';
 import { map, shareReplay } from 'rxjs/operators';
 import { EditionLevel } from 'src/app/app.config';
 import { Page } from 'src/app/models/evt-models';
 import { EVTStatusService } from 'src/app/services/evt-status.service';
 import { EvtIconInfo } from 'src/app/ui-components/icon/icon.component';
+import { CommonModule } from '@angular/common';
+import { TextPanelComponent } from '../../panels/text-panel/text-panel.component';
+import { VersionPanelComponent } from '../../panels/version-panel/version-panel.component';
+import { ButtonComponent } from '../../ui-components/button/button.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'evt-text-versions',
   templateUrl: './text-versions.component.html',
   styleUrls: ['./text-versions.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    GridsterComponent,
+    GridsterItemComponent,
+    TextPanelComponent,
+    VersionPanelComponent,
+    ButtonComponent,
+      TranslateModule
+  ]
 })
 export class TextVersionsComponent {
   @ViewChild('versionsPanel', { static: true }) versionsPanel: ElementRef;

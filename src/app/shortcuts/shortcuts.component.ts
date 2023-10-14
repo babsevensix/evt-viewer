@@ -1,9 +1,16 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'evt-shortcuts',
   templateUrl: './shortcuts.component.html',
   styleUrls: ['./shortcuts.component.scss'],
+  standalone: true,
+  imports:[
+      CommonModule,
+      TranslateModule
+  ]
 })
 export class ShortcutsComponent {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

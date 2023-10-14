@@ -1,10 +1,25 @@
-import { ChangeDetectorRef, Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
-import { EvtIconInfo } from '../icon/icon.component';
+import {
+  ChangeDetectorRef,
+  Component,
+  EventEmitter,
+  Input,
+  OnChanges,
+  OnInit,
+  Output,
+  SimpleChanges
+} from '@angular/core';
+import { EvtIconInfo, IconComponent } from '../icon/icon.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'evt-button',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    IconComponent,
+  ]
 })
 export class ButtonComponent implements OnInit, OnChanges {
   @Input() public iconLeft: EvtIconInfo;

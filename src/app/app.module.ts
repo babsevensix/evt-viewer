@@ -25,8 +25,12 @@ import { NgxSliderModule } from 'ngx-slider-v2';
 import { Ng2HandySyntaxHighlighterModule } from '../library/handy-syntax/Ng2HandySyntaxHighlighterModule';
 import { AdditionComponent } from './components/addition/addition.component';
 import { AdditionalComponent } from './components/additional/additional.component';
-import { ApparatusEntryDetailComponent } from './components/apparatus-entry/apparatus-entry-detail/apparatus-entry-detail.component';
-import { ApparatusEntryReadingsComponent } from './components/apparatus-entry/apparatus-entry-readings/apparatus-entry-readings.component';
+import {
+  ApparatusEntryDetailComponent
+} from './components/apparatus-entry/apparatus-entry-detail/apparatus-entry-detail.component';
+import {
+  ApparatusEntryReadingsComponent
+} from './components/apparatus-entry/apparatus-entry-readings/apparatus-entry-readings.component';
 import { ApparatusEntryComponent } from './components/apparatus-entry/apparatus-entry.component';
 import { CharComponent } from './components/char/char.component';
 import { ChoiceComponent } from './components/choice/choice.component';
@@ -47,7 +51,9 @@ import { GlobalListsComponent } from './components/global-lists/global-lists.com
 import { HistoryComponent } from './components/history/history.component';
 import { IdentifierComponent } from './components/identifier/identifier.component';
 import { LbComponent } from './components/lb/lb.component';
-import { ManuscriptThumbnailsViewerComponent } from './components/manuscript-thumbnails-viewer/manuscript-thumbnails-viewer.component';
+import {
+  ManuscriptThumbnailsViewerComponent
+} from './components/manuscript-thumbnails-viewer/manuscript-thumbnails-viewer.component';
 import { MsContentsComponent } from './components/ms-contents/ms-contents.component';
 import { MsDescSelectorComponent } from './components/ms-desc-selector/ms-desc-selector.component';
 import { MsDescComponent } from './components/ms-desc/ms-desc.component';
@@ -58,13 +64,19 @@ import { MsPartComponent } from './components/ms-part/ms-part.component';
 import { NamedEntitiesListComponent } from './components/named-entities-list/named-entities-list.component';
 import { NamedEntityRefComponent } from './components/named-entity-ref/named-entity-ref.component';
 import { NamedEntityRelationComponent } from './components/named-entity-relation/named-entity-relation.component';
-import { NamedEntityDetailComponent } from './components/named-entity/named-entity-detail/named-entity-detail.component';
-import { NamedEntityOccurrenceComponent } from './components/named-entity/named-entity-occurrence/named-entity-occurrence.component';
+import {
+  NamedEntityDetailComponent
+} from './components/named-entity/named-entity-detail/named-entity-detail.component';
+import {
+  NamedEntityOccurrenceComponent
+} from './components/named-entity/named-entity-occurrence/named-entity-occurrence.component';
 import { NamedEntityComponent } from './components/named-entity/named-entity.component';
 import { NamespaceComponent } from './components/namespace/namespace.component';
 import { NoteComponent } from './components/note/note.component';
 import { NotesStmtComponent } from './components/notes-stmt/notes-stmt.component';
-import { OriginalEncodingViewerComponent } from './components/original-encoding-viewer/original-encoding-viewer.component';
+import {
+  OriginalEncodingViewerComponent
+} from './components/original-encoding-viewer/original-encoding-viewer.component';
 import { OsdComponent } from './components/osd/osd.component';
 import { PageSelectorComponent } from './components/page-selector/page-selector.component';
 import { PageComponent } from './components/page/page.component';
@@ -130,7 +142,7 @@ export function initializeApp(appConfig: AppConfig) {
 }
 
 const DynamicComponents = [
-  AdditionalComponent,
+
   AdditionComponent,
   ApparatusEntryComponent,
   ApparatusEntryDetailComponent,
@@ -147,15 +159,13 @@ const DynamicComponents = [
   GapComponent,
   GComponent,
   GenericElementComponent,
-  HistoryComponent,
-  IdentifierComponent,
+
+
   LbComponent,
-  MsContentsComponent,
-  MsDescComponent,
-  MsFragComponent,
-  MsIdentifierComponent,
-  MsItemComponent,
-  MsPartComponent,
+
+
+
+
   NamedEntitiesListComponent,
   NamedEntityComponent,
   NamedEntityDetailComponent,
@@ -165,7 +175,7 @@ const DynamicComponents = [
   NoteComponent,
   NotesStmtComponent,
   ParagraphComponent,
-  PhysDescComponent,
+
   ProjectDescComponent,
   PublicationStmtComponent,
   ReadingComponent,
@@ -184,49 +194,45 @@ const DynamicComponents = [
   WordComponent,
 ];
 
+const DynamicComponentsStandalone=[
+  AdditionalComponent,
+  HistoryComponent,
+  IdentifierComponent,
+  MsDescComponent,
+  MsIdentifierComponent,
+  MsContentsComponent,
+  MsFragComponent,
+  MsItemComponent,
+  MsPartComponent,
+  PhysDescComponent,
+];
+
 @NgModule({
   declarations: [
     AnnotatorDirective,
     AppComponent,
-    CollationComponent,
-    ContentViewerComponent,
-    EditionLevelSelectorComponent,
+
+
+
     EditorialConventionLayoutDirective,
-    EntitiesSelectComponent,
-    EvtInfoComponent,
+
+
     FilterPipe,
-    GlobalListsComponent,
+
     HandleImgErrorDirective,
-    HighlightDirective,
+
     HtmlAttributesDirective,
     HumanizePipe,
-    ImagePanelComponent,
     ImageTextComponent,
     MainHeaderComponent,
     MainMenuComponent,
     ManuscriptThumbnailsViewerComponent,
-    MsDescSectionComponent,
-    MsDescSelectorComponent,
     NamedEntityOccurrenceComponent,
     NavBarComponent,
     OriginalEncodingViewerComponent,
-    OsdComponent,
-    PageComponent,
-    PageSelectorComponent,
     PinboardComponent,
     PinboardPanelComponent,
-    PinnerComponent,
-    ProjectInfoComponent,
     ReadingTextComponent,
-    ShortcutsComponent,
-    SourcesPanelComponent,
-    StartsWithPipe,
-    TextPanelComponent,
-    TextSourcesComponent,
-    TextTextComponent,
-    TextVersionsComponent,
-    VersionPanelComponent,
-    WitnessPanelComponent,
     XmlBeautifyPipe,
     ...DynamicComponents,
   ],
@@ -251,6 +257,31 @@ const DynamicComponents = [
     RouterModule.forRoot(routes, { useHash: true }),
     ScrollingModule,
     UiComponentsModule,
+    EditionLevelSelectorComponent,
+    PinnerComponent,
+    ContentViewerComponent,
+    ShortcutsComponent,
+    CollationComponent,
+    WitnessPanelComponent,
+    PageSelectorComponent,
+    TextPanelComponent,
+    PageComponent,
+    EntitiesSelectComponent,
+    HighlightDirective,
+    VersionPanelComponent,
+    TextVersionsComponent,
+    ProjectInfoComponent,
+    StartsWithPipe,
+    SourcesPanelComponent,
+    TextSourcesComponent,
+    TextTextComponent,
+    EvtInfoComponent,
+    GlobalListsComponent,
+    ImagePanelComponent,
+    MsDescSectionComponent,
+    MsDescSelectorComponent,
+    OsdComponent,
+      ...DynamicComponentsStandalone,
   ],
   providers: [
     AnnotatorService,
@@ -258,7 +289,8 @@ const DynamicComponents = [
     {
       provide: APP_INITIALIZER,
       useFactory: initializeApp,
-      deps: [AppConfig], multi: true,
+      deps: [AppConfig],
+      multi: true,
     },
     AppConfig,
     GenericParserService,
@@ -266,16 +298,11 @@ const DynamicComponents = [
     ThemesService,
     XMLParsers,
   ],
-  bootstrap: [
-    AppComponent,
-  ],
+  bootstrap: [AppComponent],
 })
 export class AppModule implements DoBootstrap {
-  constructor(
-    library: FaIconLibrary,
-  ) {
+  constructor(library: FaIconLibrary) {
     library.addIconPacks(fas);
-
   }
 
   ngDoBootstrap(appRef: ApplicationRef): void {
