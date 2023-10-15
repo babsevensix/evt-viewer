@@ -28,7 +28,7 @@ export interface EntitiesSelectItem {
     UiComponentsModule,
     TranslateModule,
     FormsModule,
-  ]
+  ],
 })
 export class EntitiesSelectComponent {
   @Output() selectionChange: EventEmitter<EntitiesSelectItem[]> = new EventEmitter();

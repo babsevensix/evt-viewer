@@ -26,10 +26,10 @@ import { Ng2HandySyntaxHighlighterModule } from '../library/handy-syntax/Ng2Hand
 import { AdditionComponent } from './components/addition/addition.component';
 import { AdditionalComponent } from './components/additional/additional.component';
 import {
-  ApparatusEntryDetailComponent
+  ApparatusEntryDetailComponent,
 } from './components/apparatus-entry/apparatus-entry-detail/apparatus-entry-detail.component';
 import {
-  ApparatusEntryReadingsComponent
+  ApparatusEntryReadingsComponent,
 } from './components/apparatus-entry/apparatus-entry-readings/apparatus-entry-readings.component';
 import { ApparatusEntryComponent } from './components/apparatus-entry/apparatus-entry.component';
 import { CharComponent } from './components/char/char.component';
@@ -52,7 +52,7 @@ import { HistoryComponent } from './components/history/history.component';
 import { IdentifierComponent } from './components/identifier/identifier.component';
 import { LbComponent } from './components/lb/lb.component';
 import {
-  ManuscriptThumbnailsViewerComponent
+  ManuscriptThumbnailsViewerComponent,
 } from './components/manuscript-thumbnails-viewer/manuscript-thumbnails-viewer.component';
 import { MsContentsComponent } from './components/ms-contents/ms-contents.component';
 import { MsDescSelectorComponent } from './components/ms-desc-selector/ms-desc-selector.component';
@@ -65,17 +65,17 @@ import { NamedEntitiesListComponent } from './components/named-entities-list/nam
 import { NamedEntityRefComponent } from './components/named-entity-ref/named-entity-ref.component';
 import { NamedEntityRelationComponent } from './components/named-entity-relation/named-entity-relation.component';
 import {
-  NamedEntityDetailComponent
+  NamedEntityDetailComponent,
 } from './components/named-entity/named-entity-detail/named-entity-detail.component';
 import {
-  NamedEntityOccurrenceComponent
+  NamedEntityOccurrenceComponent,
 } from './components/named-entity/named-entity-occurrence/named-entity-occurrence.component';
 import { NamedEntityComponent } from './components/named-entity/named-entity.component';
 import { NamespaceComponent } from './components/namespace/namespace.component';
 import { NoteComponent } from './components/note/note.component';
 import { NotesStmtComponent } from './components/notes-stmt/notes-stmt.component';
 import {
-  OriginalEncodingViewerComponent
+  OriginalEncodingViewerComponent,
 } from './components/original-encoding-viewer/original-encoding-viewer.component';
 import { OsdComponent } from './components/osd/osd.component';
 import { PageSelectorComponent } from './components/page-selector/page-selector.component';
@@ -164,8 +164,6 @@ const DynamicComponents = [
   LbComponent,
 
 
-
-
   NamedEntitiesListComponent,
   NamedEntityComponent,
   NamedEntityDetailComponent,
@@ -211,7 +209,6 @@ const DynamicComponentsStandalone=[
   declarations: [
     AnnotatorDirective,
     AppComponent,
-
 
 
     EditorialConventionLayoutDirective,
@@ -307,5 +304,6 @@ export class AppModule implements DoBootstrap {
 
   ngDoBootstrap(appRef: ApplicationRef): void {
     DynamicComponents.forEach((c) => appRef.bootstrap(c));
+    //DynamicComponentsStandalone.forEach((c)=> appRef.bootstrap(c));
   }
 }

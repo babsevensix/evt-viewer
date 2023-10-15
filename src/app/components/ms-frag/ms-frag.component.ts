@@ -25,9 +25,8 @@ import { CommonModule } from '@angular/common';
     PhysDescComponent,
     HistoryComponent,
     AdditionalComponent,
-      CommonModule,
-
-  ]
+    CommonModule,
+  ],
 })
 
 @register(MsFrag)

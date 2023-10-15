@@ -6,7 +6,7 @@ import {
   GridsterConfig,
   GridsterItem,
   GridsterItemComponent,
-  GridType
+  GridType,
 } from 'angular-gridster2';
 import { map, shareReplay } from 'rxjs/operators';
 import { EditionLevel } from 'src/app/app.config';
@@ -31,8 +31,8 @@ import { TranslateModule } from '@ngx-translate/core';
     TextPanelComponent,
     VersionPanelComponent,
     ButtonComponent,
-      TranslateModule
-  ]
+    TranslateModule,
+  ],
 })
 export class TextVersionsComponent {
   @ViewChild('versionsPanel', { static: true }) versionsPanel: ElementRef;
@@ -121,7 +121,7 @@ export class TextVersionsComponent {
     // TODO: Come gestiamo la rotta nel caso di più versioni selezionate?
   }
 
-  removeVersion(index) {
+  removeVersion(index:  number) {
     this.versions.splice(index, 1);
     this.updateGridsterOptions();
   }

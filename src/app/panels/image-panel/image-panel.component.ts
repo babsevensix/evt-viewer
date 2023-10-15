@@ -21,8 +21,8 @@ import { MsDescComponent } from '../../components/ms-desc/ms-desc.component';
     CommonModule,
     MsDescSelectorComponent,
     OsdComponent,
-    MsDescComponent
-  ]
+    MsDescComponent,
+  ],
 })
 export class ImagePanelComponent {
   @Input() viewerData: ViewerDataType;

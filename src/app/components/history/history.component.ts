@@ -13,9 +13,8 @@ import { CommonModule } from '@angular/common';
   imports: [
     MsDescSectionComponent,
     ContentViewerComponent,
-      CommonModule,
-
-  ]
+    CommonModule,
+  ],
 })
 
 @register(History)

@@ -29,7 +29,7 @@ import { MsPartComponent } from '../ms-part/ms-part.component';
     AdditionalComponent,
     MsFragComponent,
     MsPartComponent,
-  ]
+  ],
 })
 
 @register(MsDesc)

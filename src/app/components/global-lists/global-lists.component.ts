@@ -1,4 +1,4 @@
-import { Component, } from '@angular/core';
+import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
 
@@ -24,7 +24,7 @@ interface GlobalList extends NamedEntitiesList {
     TranslateModule,
     IconComponent,
     ContentViewerComponent,
-  ]
+  ],
 })
 export class GlobalListsComponent {
 

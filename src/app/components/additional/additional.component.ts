@@ -15,7 +15,7 @@ import { ContentViewerComponent } from '../content-viewer/content-viewer.compone
     CommonModule,
     ContentViewerComponent,
 
-  ]
+  ],
 })
 
 @register(Additional)
