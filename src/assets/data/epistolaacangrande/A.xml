@@ -286,6 +286,7 @@
                 </head>
                 <p>
 					<pb n="104v" xml:id="C145inf-105verso"/>
+                    <space quantity="5" unit="chars">m</space>
                     <figure id="fig1" file="fig1">
                         <figDesc>[m]</figDesc>
                     </figure>

@@ -200,6 +200,11 @@ export class Paragraph extends GenericElement {
     n: string;
 }
 
+export class Space extends GenericElement {
+    quantity?: number;
+    unit?: 'chars' | 'letter' ;
+}
+
 export class Lb extends GenericElement {
     id: string;
     n?: string;

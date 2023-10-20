@@ -133,6 +133,7 @@ import { ReadingTextComponent } from './view-modes/reading-text/reading-text.com
 import { TextSourcesComponent } from './view-modes/text-sources/text-sources.component';
 import { TextTextComponent } from './view-modes/text-text/text-text.component';
 import { TextVersionsComponent } from './view-modes/text-versions/text-versions.component';
+import { SpaceComponent } from './components/space/space.component';
 
 const routes: Routes = [
 ];
@@ -182,6 +183,7 @@ const DynamicComponents = [
   SamplingDeclComponent,
   SeriesStmtComponent,
   SicComponent,
+    SpaceComponent,
   SuppliedComponent,
   SurplusComponent,
   TagsDeclComponent,

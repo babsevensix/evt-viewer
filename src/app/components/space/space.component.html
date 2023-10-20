@@ -1,0 +1,16 @@
+<!--&lt;&#45;&#45;[ space element ]-->
+<!--{{data.attributes | json}}-->
+<span class="space" [attr.data-edition]="editionLevel"
+      [evtHtmlAttributes]="data?.attributes"
+    [evtHighlight]="highlightData" >
+
+    <ng-container *ngIf="data.attributes.unit === 'chars'">
+      <span *ngFor="let _ of numSpaces">&nbsp;</span>
+    </ng-container>
+  <ng-content *ngIf="data.attributes.unit === 'letter'">
+
+    </ng-content>
+    <evt-content-viewer *ngFor="let element of data.content" [content]="element" [editionLevel]="editionLevel"
+        [itemsToHighlight]="itemsToHighlight"></evt-content-viewer>
+</span>
+<!--[ space element]&#45;&#45;&gt;-->
